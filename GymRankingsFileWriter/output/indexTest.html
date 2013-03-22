@@ -1,0 +1,465 @@
+<!DOCTYPE html>  <html>
+ <head>
+     <title>Gym Rankings: the Latest in NCAA Gymnastics Rankings</title>
+     <meta name="description" content="The new site for NCAA Men's and Women's Gymnastics Rankings. Updated every week with the latest Team and Individual scores.">     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">      <style type="text/css">          footer{
+             background-color: #f5f5f5;
+             padding-bottom:20px;
+         }         footer a{
+             color: #0088cc;
+         }         footer a:hover {
+             text-decoration: none;
+             color: #ffffff;
+             text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+             background-color: #0088cc;
+         }         div.row{
+             min-height: 700px;
+             height: auto !important;
+             height: 700px;
+             padding-bottom: 300px;
+         }         .masthead{
+             background-color: #ffffff;
+         }         .masthead div{
+             padding-top: 10px;
+         }         td{
+             width: 0%;
+         }         .men .TeamName{
+             width: 21% !important;
+         }         .men .Conference{
+             width: 10%;
+         }         .women .Conference{
+             width: 14%;
+         }         .women .TeamName{
+             width: 24%;
+         }         .RankChange{
+             width: 7%;
+         }                  .success{
+             background-color: #a5cf35 !important;
+         }         .error{
+             background-color: #c44b4b !important;
+         }         .span8{
+             width: 660px;
+         }         .container{
+             width: 980px;
+         }     </style>
+     <script type="text/javascript">      var _gaq = _gaq || [];
+     _gaq.push(['_setAccount', 'UA-39063423-1']);
+     _gaq.push(['_trackPageview']);
+      (function() {
+         var ga = document.createElement('script');
+ ga.type = 'text/javascript';
+ ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0];
+ s.parentNode.insertBefore(ga, s);
+     })();
+      </script>
+     <script src="jquery-1.9.1.js">     </script>
+     <script type="text/javascript">var switchTo5x=true;
+</script>
+ <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+ <script type="text/javascript">stLight.options({
+publisher: "ur-f2c4f0cd-f2d4-c4eb-4c58-edc03af74ed6", doNotHash: false, doNotCopy: false, hashAddressBar: false});
+</script>
+ </head>
+ <body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true">      <script src="http://code.jquery.com/jquery-latest.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+      <div class="container">
+ 	<div class="masthead">
+             <a href="#" class="btn btn-large btn-primary pull-right mobile">&laquo;
+ Back</a>             <script type="text/javascript">                 $(".mobile").hide();
+             </script>
+             <div class="pull-right desktop">
+                 <span class='st_facebook_large' displayText='Facebook'></span>                 <span class='st_twitter_large' displayText='Tweet'></span>                 <span class='st_email_large' displayText='Email'></span>                 <span class='st_googleplus_large' displayText='Google +'></span>             </div>
+             <h3 class="muted">Gym Rankings <small>The Latest NCAA Gymnastics Rankings</small></h3>             <hr>
+ 	</div>
+         <div class="row">
+             <div class="span4">
+                 <div class="affix">
+                     <div class="well sidebar-nav">
+                         <div class="btn-toolbar">
+                             <div id="menWomen" class="btn-group">
+                                 <button id="men" class="btn btn-small active">Men</button>                                  <button id="women" class="btn btn-small">Women</button>                              </div>
+                             <div id="teamIndiv" class="btn-group">
+                                 <button id="team" class="btn btn-small active">Team</button>                                  <button id="individual" class="btn btn-small">Individual</button>                              </div>
+                         </div>
+                         <ul class="nav nav-list">
+                                                           <li class="men team t active"><a>Team</a></li>
+                             <li class="men team fx"><a>Floor</a></li>
+                             <li class="men team ph"><a>Pommel Horse</a></li>
+                             <li class="men team sr"><a>Rings</a></li>
+                             <li class="men team v"><a>Vault</a></li>
+                             <li class="men team pb"><a>Parallel Bars</a></li>
+                             <li class="men team hb"><a>High Bar</a></li>
+                              <li class="men individual aa active"><a>All-Around</a></li>
+                             <li class="men individual fx"><a>Floor</a></li>
+                             <li class="men individual ph"><a>Pommel Horse</a></li>
+                             <li class="men individual sr"><a>Rings</a></li>
+                             <li class="men individual v"><a>Vault</a></li>
+                             <li class="men individual pb"><a>Parallel Bars</a></li>
+                             <li class="men individual hb"><a>High Bar</a></li>
+                              <li class="women team t active"><a>Team</a></li>
+                             <li class="women team v"><a>Vault</a></li>
+                             <li class="women team ub"><a>Bars</a></li>
+                             <li class="women team bb"><a>Beam</a></li>
+                             <li class="women team fx"><a>Floor</a></li>
+                              <li class="women individual aa active"><a>All-Around</a></li>
+                             <li class="women individual v"><a>Vault</a></li>
+                             <li class="women individual ub"><a>Bars</a></li>
+                             <li class="women individual bb"><a>Beam</a></li>
+                             <li class="women individual fx"><a>Floor</a></li>
+                         </ul>
+                         <script src="jquery-1.9.1.js"></script>
+                         <script type="text/javascript">                             $(".men.individual").hide();
+                             $(".women").hide();
+                             if(screen.width<700){
+                                 $("div.well").css('width', screen.width);
+                             }                         </script>
+                     </div>
+                     <div class="well sidebar-nav">
+                     <iframe src="http://rcm.amazon.com/e/cm?t=gymra-20&o=1&p=8&l=as1&asins=B000PKK6WC&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0088CC&bc1=F5F5F5&bg1=F5F5F5&f=ifr" style="width:120px;
+height:240px;
+" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>                     <iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&bc1=F5F5F5&IS2=1&bg1=F5F5F5&fc1=000000&lc1=0088CC&t=gymra-20&o=1&p=8&l=as1&m=amazon&f=ifr&ref=tf_til&asins=B0002V9PAI" style="width:120px;
+height:240px;
+" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>                     </div>
+                                          <div class="well sidebar-nav desktop">
+                         <ul class="nav nav-list">
+                             <li class="nav-header">Weekly Rank Change:</li>
+                         </ul>
+                             <div>
+                             <table class="table-striped table-bordered table-condensed">
+                                 <tr><td class="success"><i class="icon-arrow-up"></i>1</td><td>Up 1 Rank since last week</td></tr>
+                                 <tr><td class="error"><i class="icon-arrow-down"></i>1</td><td>Down 1 Rank since last week</td></tr>
+                                 <tr><td class="success"><i class="icon-arrow-up"></i>NR</td><td>Not Ranked last week</td></tr>
+                             </table>
+                             </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="span8">
+                 <div class="men team t">
+                     <small class="pull-right"><i>Men's Rankings Updated March 18, 2013</i></small>                      <h4>Men's Team Ranking</h4>
+                  <table class="table-striped table-bordered table-condensed">
+  <tr><td class="RankChange"></td> <td class="Rank">Rank</td> <td class="TeamName">Team Name</td> <td class="Team4Ave">Team  4 Ave</td> <td class="Region">Region</td> <td class="Conference">Conference</td> <td class="Ave">Ave</td> <td class="High">High</td> <td class="HomeMeets">Home Meets</td> <td class="AwayMeets">Away Meets</td> </tr>
+ <tr><td></td> <td> 1 </td> <td> Penn State </td> <td> 444.767 </td> <td> E </td> <td> Big 10 </td> <td> 440.488 </td> <td> 447.850 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 2 </td> <td> Oklahoma   </td> <td> 439.450 </td> <td> W </td> <td> MPSF </td> <td> 435.825 </td> <td> 443.350 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 3 </td> <td> Michigan   </td> <td> 436.800 </td> <td> E </td> <td> Big 10 </td> <td> 435.243 </td> <td> 446.150 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 4 </td> <td> Stanford  </td> <td> 434.317 </td> <td> W </td> <td> MPSF </td> <td> 432.364 </td> <td> 438.600 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 5 </td> <td> Ohio State </td> <td> 433.233 </td> <td> E </td> <td> Big 10 </td> <td> 433.717 </td> <td> 439.200 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 6 </td> <td> Illinois   </td> <td> 431.717 </td> <td> E </td> <td> Big 10 </td> <td> 430.125 </td> <td> 438.600 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 7 </td> <td> Minnesota   </td> <td> 430.700 </td> <td> E </td> <td> Big 10 </td> <td> 426.817 </td> <td> 435.450 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 8 </td> <td> California </td> <td> 426.450 </td> <td> W </td> <td> MPSF </td> <td> 422.481 </td> <td> 428.650 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 9 </td> <td> Iowa   </td> <td> 425.517 </td> <td> E </td> <td> Big 10 </td> <td> 423.325 </td> <td> 428.450 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 10 </td> <td> Air Force Academy </td> <td> 424.783 </td> <td> W </td> <td> MPSF </td> <td> 417.686 </td> <td> 431.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 11 </td> <td> Nebraska   </td> <td> 424.550 </td> <td> W </td> <td> Big 10 </td> <td> 423.329 </td> <td> 427.700 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 12 </td> <td> William & Mary </td> <td> 415.883 </td> <td> E </td> <td> EIGL </td> <td> 413.544 </td> <td> 420.500 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 13 </td> <td> Army </td> <td> 413.067 </td> <td> E </td> <td> EIGL </td> <td> 411.306 </td> <td> 416.100 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>2</td> <td> 14 </td> <td> Temple  </td> <td> 411.267 </td> <td> E </td> <td> EIGL </td> <td> 407.494 </td> <td> 421.300 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 15 </td> <td> UIC </td> <td> 406.100 </td> <td> E </td> <td> EIGL </td> <td> 402.828 </td> <td> 412.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 16 </td> <td> Navy </td> <td> 405.250 </td> <td> E </td> <td> EIGL </td> <td> 402.636 </td> <td> 407.300 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 17 </td> <td> Springfield </td> <td> 403.533 </td> <td> E </td> <td> EIGL </td> <td> 401.869 </td> <td> 413.100 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 18 </td> <td> Arizona State </td> <td> 403.283 </td> <td> C </td> <td> Club </td> <td> 401.158 </td> <td> 414.900 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>NR</td> <td> 19 </td> <td> Washington </td> <td> 351.700 </td> <td> C </td> <td> Club </td> <td> 354.788 </td> <td> 364.050 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 20 </td> <td> Brockport </td> <td> 168.167 </td> <td> C </td> <td> Club </td> <td> 190.150 </td> <td> 256.100 </td> <td> 1 </td> <td> 3 </td> </tr>
+  </table>
+ </div>
+                 <div class="men team fx">
+                     <small class="pull-right"><i>Men's Rankings Updated March 18, 2013</i></small>                      <h4>Men's Floor Ranking</h4>
+                  <table class="table-striped table-bordered table-condensed">
+  <tr><td class="RankChange"></td> <td class="Rank">Rank</td> <td class="TeamName">Team Name</td> <td class="FX4Ave">FX  4 Ave</td> <td class="Region">Region</td> <td class="Conference">Conference</td> <td class="Ave">Ave</td> <td class="High">High</td> <td class="HomeMeets">Home Meets</td> <td class="AwayMeets">Away Meets</td> </tr>
+ <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 1 </td> <td> Oklahoma   </td> <td> 74.867 </td> <td> W </td> <td> MPSF </td> <td> 73.519 </td> <td> 75.850 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 2 </td> <td> Michigan   </td> <td> 74.700 </td> <td> E </td> <td> Big 10 </td> <td> 74.129 </td> <td> 76.800 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 3 </td> <td> Ohio State </td> <td> 74.450 </td> <td> E </td> <td> Big 10 </td> <td> 74.183 </td> <td> 75.350 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>3</td> <td> 4 </td> <td> California </td> <td> 74.000 </td> <td> W </td> <td> MPSF </td> <td> 73.200 </td> <td> 74.200 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 5 </td> <td> Penn State </td> <td> 73.833 </td> <td> E </td> <td> Big 10 </td> <td> 73.188 </td> <td> 74.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 6 </td> <td> Minnesota   </td> <td> 73.633 </td> <td> E </td> <td> Big 10 </td> <td> 72.272 </td> <td> 74.750 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 7 </td> <td> Illinois   </td> <td> 73.517 </td> <td> E </td> <td> Big 10 </td> <td> 72.581 </td> <td> 74.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>4</td> <td> 8 </td> <td> Stanford  </td> <td> 73.500 </td> <td> W </td> <td> MPSF </td> <td> 72.929 </td> <td> 75.850 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 9 </td> <td> Nebraska   </td> <td> 71.850 </td> <td> W </td> <td> Big 10 </td> <td> 71.314 </td> <td> 73.450 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 10 </td> <td> Iowa   </td> <td> 71.633 </td> <td> E </td> <td> Big 10 </td> <td> 70.881 </td> <td> 71.900 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 11 </td> <td> Army </td> <td> 71.300 </td> <td> E </td> <td> EIGL </td> <td> 70.681 </td> <td> 71.900 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 12 </td> <td> Air Force Academy </td> <td> 71.250 </td> <td> W </td> <td> MPSF </td> <td> 70.382 </td> <td> 75.100 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 13 </td> <td> Temple  </td> <td> 70.517 </td> <td> E </td> <td> EIGL </td> <td> 69.925 </td> <td> 73.000 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 14 </td> <td> William & Mary </td> <td> 70.217 </td> <td> E </td> <td> EIGL </td> <td> 69.319 </td> <td> 71.350 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 15 </td> <td> UIC </td> <td> 69.483 </td> <td> E </td> <td> EIGL </td> <td> 68.289 </td> <td> 71.650 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 16 </td> <td> Arizona State </td> <td> 68.700 </td> <td> C </td> <td> Club </td> <td> 68.308 </td> <td> 70.350 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>2</td> <td> 17 </td> <td> Navy </td> <td> 68.517 </td> <td> E </td> <td> EIGL </td> <td> 67.800 </td> <td> 70.550 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 18 </td> <td> Springfield </td> <td> 68.333 </td> <td> E </td> <td> EIGL </td> <td> 67.294 </td> <td> 69.500 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>NR</td> <td> 19 </td> <td> Washington </td> <td> 59.633 </td> <td> C </td> <td> Club </td> <td> 60.525 </td> <td> 63.200 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 20 </td> <td> Brockport </td> <td> 38.883 </td> <td> C </td> <td> Club </td> <td> 44.625 </td> <td> 61.850 </td> <td> 1 </td> <td> 3 </td> </tr>
+  </table>
+ </div>
+                 <div class="men team ph">
+                     <small class="pull-right"><i>Men's Rankings Updated March 18, 2013</i></small>                      <h4>Men's Pommel Horse Ranking</h4>
+                  <table class="table-striped table-bordered table-condensed">
+  <tr><td class="RankChange"></td> <td class="Rank">Rank</td> <td class="TeamName">Team Name</td> <td class="PH4Ave">PH  4 Ave</td> <td class="Region">Region</td> <td class="Conference">Conference</td> <td class="Ave">Ave</td> <td class="High">High</td> <td class="HomeMeets">Home Meets</td> <td class="AwayMeets">Away Meets</td> </tr>
+ <tr><td></td> <td> 1 </td> <td> Penn State </td> <td> 74.550 </td> <td> E </td> <td> Big 10 </td> <td> 72.688 </td> <td> 75.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 2 </td> <td> Oklahoma   </td> <td> 72.783 </td> <td> W </td> <td> MPSF </td> <td> 72.025 </td> <td> 74.500 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 3 </td> <td> Ohio State </td> <td> 72.600 </td> <td> E </td> <td> Big 10 </td> <td> 72.425 </td> <td> 73.050 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 4 </td> <td> Illinois   </td> <td> 71.817 </td> <td> E </td> <td> Big 10 </td> <td> 70.775 </td> <td> 73.950 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 5 </td> <td> Michigan   </td> <td> 71.450 </td> <td> E </td> <td> Big 10 </td> <td> 70.821 </td> <td> 74.000 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 6 </td> <td> Stanford  </td> <td> 71.017 </td> <td> W </td> <td> MPSF </td> <td> 70.293 </td> <td> 71.900 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 7 </td> <td> Minnesota   </td> <td> 70.633 </td> <td> E </td> <td> Big 10 </td> <td> 68.983 </td> <td> 72.300 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 8 </td> <td> California </td> <td> 70.100 </td> <td> W </td> <td> MPSF </td> <td> 68.738 </td> <td> 71.200 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 9 </td> <td> Nebraska   </td> <td> 69.467 </td> <td> W </td> <td> Big 10 </td> <td> 68.829 </td> <td> 71.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 10 </td> <td> William & Mary </td> <td> 69.117 </td> <td> E </td> <td> EIGL </td> <td> 68.294 </td> <td> 71.100 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>2</td> <td> 11 </td> <td> Air Force Academy </td> <td> 68.683 </td> <td> W </td> <td> MPSF </td> <td> 67.091 </td> <td> 69.450 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 12 </td> <td> Army </td> <td> 68.467 </td> <td> E </td> <td> EIGL </td> <td> 68.056 </td> <td> 69.200 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>2</td> <td> 13 </td> <td> Iowa   </td> <td> 68.233 </td> <td> E </td> <td> Big 10 </td> <td> 67.444 </td> <td> 70.600 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 14 </td> <td> Temple  </td> <td> 67.683 </td> <td> E </td> <td> EIGL </td> <td> 66.013 </td> <td> 70.500 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 15 </td> <td> Springfield </td> <td> 67.633 </td> <td> E </td> <td> EIGL </td> <td> 66.838 </td> <td> 69.600 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 16 </td> <td> UIC </td> <td> 66.150 </td> <td> E </td> <td> EIGL </td> <td> 64.233 </td> <td> 68.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 17 </td> <td> Arizona State </td> <td> 65.783 </td> <td> C </td> <td> Club </td> <td> 64.367 </td> <td> 68.350 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 18 </td> <td> Navy </td> <td> 65.733 </td> <td> E </td> <td> EIGL </td> <td> 65.200 </td> <td> 66.950 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>NR</td> <td> 19 </td> <td> Washington </td> <td> 51.983 </td> <td> C </td> <td> Club </td> <td> 52.600 </td> <td> 54.450 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 20 </td> <td> Brockport </td> <td> 21.233 </td> <td> C </td> <td> Club </td> <td> 23.200 </td> <td> 29.100 </td> <td> 1 </td> <td> 3 </td> </tr>
+  </table>
+ </div>
+                 <div class="men team sr">
+                     <small class="pull-right"><i>Men's Rankings Updated March 18, 2013</i></small>                      <h4>Men's Rings Ranking</h4>
+                  <table class="table-striped table-bordered table-condensed">
+  <tr><td class="RankChange"></td> <td class="Rank">Rank</td> <td class="TeamName">Team Name</td> <td class="SR4Ave">SR  4 Ave</td> <td class="Region">Region</td> <td class="Conference">Conference</td> <td class="Ave">Ave</td> <td class="High">High</td> <td class="HomeMeets">Home Meets</td> <td class="AwayMeets">Away Meets</td> </tr>
+ <tr><td></td> <td> 1 </td> <td> Penn State </td> <td> 76.050 </td> <td> E </td> <td> Big 10 </td> <td> 74.700 </td> <td> 77.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 2 </td> <td> Illinois   </td> <td> 75.167 </td> <td> E </td> <td> Big 10 </td> <td> 73.975 </td> <td> 76.000 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 3 </td> <td> Michigan   </td> <td> 74.933 </td> <td> E </td> <td> Big 10 </td> <td> 74.314 </td> <td> 76.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 4 </td> <td> Oklahoma   </td> <td> 74.767 </td> <td> W </td> <td> MPSF </td> <td> 73.825 </td> <td> 76.200 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 5 </td> <td> Iowa   </td> <td> 73.483 </td> <td> E </td> <td> Big 10 </td> <td> 72.913 </td> <td> 74.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 6 </td> <td> Stanford  </td> <td> 73.417 </td> <td> W </td> <td> MPSF </td> <td> 72.879 </td> <td> 73.950 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 7 </td> <td> Air Force Academy </td> <td> 73.233 </td> <td> W </td> <td> MPSF </td> <td> 71.332 </td> <td> 74.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 8 </td> <td> Minnesota   </td> <td> 72.633 </td> <td> E </td> <td> Big 10 </td> <td> 72.006 </td> <td> 73.600 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>2</td> <td> 9 </td> <td> Ohio State </td> <td> 72.250 </td> <td> E </td> <td> Big 10 </td> <td> 72.108 </td> <td> 74.050 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 10 </td> <td> California </td> <td> 71.333 </td> <td> W </td> <td> MPSF </td> <td> 69.931 </td> <td> 72.150 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 11 </td> <td> Nebraska   </td> <td> 70.550 </td> <td> W </td> <td> Big 10 </td> <td> 70.593 </td> <td> 72.050 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 12 </td> <td> Temple  </td> <td> 70.183 </td> <td> E </td> <td> EIGL </td> <td> 69.275 </td> <td> 71.300 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 13 </td> <td> Army </td> <td> 69.967 </td> <td> E </td> <td> EIGL </td> <td> 69.206 </td> <td> 70.500 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>2</td> <td> 14 </td> <td> William & Mary </td> <td> 69.283 </td> <td> E </td> <td> EIGL </td> <td> 68.731 </td> <td> 70.850 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 15 </td> <td> Navy </td> <td> 68.983 </td> <td> E </td> <td> EIGL </td> <td> 68.543 </td> <td> 70.400 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>2</td> <td> 16 </td> <td> UIC </td> <td> 68.300 </td> <td> E </td> <td> EIGL </td> <td> 68.117 </td> <td> 71.050 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 17 </td> <td> Springfield </td> <td> 68.250 </td> <td> E </td> <td> EIGL </td> <td> 67.881 </td> <td> 69.400 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 18 </td> <td> Arizona State </td> <td> 66.783 </td> <td> C </td> <td> Club </td> <td> 66.092 </td> <td> 69.000 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 19 </td> <td> Washington </td> <td> 57.400 </td> <td> C </td> <td> Club </td> <td> 58.075 </td> <td> 60.100 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 20 </td> <td> Brockport </td> <td> 29.450 </td> <td> C </td> <td> Club </td> <td> 31.363 </td> <td> 37.100 </td> <td> 1 </td> <td> 3 </td> </tr>
+  </table>
+ </div>
+                 <div class="men team v">
+                     <small class="pull-right"><i>Men's Rankings Updated March 18, 2013</i></small>                      <h4>Men's Vault Ranking</h4>
+                  <table class="table-striped table-bordered table-condensed">
+  <tr><td class="RankChange"></td> <td class="Rank">Rank</td> <td class="TeamName">Team Name</td> <td class="V4Ave">V  4 Ave</td> <td class="Region">Region</td> <td class="Conference">Conference</td> <td class="Ave">Ave</td> <td class="High">High</td> <td class="HomeMeets">Home Meets</td> <td class="AwayMeets">Away Meets</td> </tr>
+ <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 1 </td> <td> Michigan   </td> <td> 74.583 </td> <td> E </td> <td> Big 10 </td> <td> 73.986 </td> <td> 75.000 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 2 </td> <td> Penn State </td> <td> 74.400 </td> <td> E </td> <td> Big 10 </td> <td> 73.869 </td> <td> 75.050 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 3 </td> <td> Minnesota   </td> <td> 73.400 </td> <td> E </td> <td> Big 10 </td> <td> 72.811 </td> <td> 74.450 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>2</td> <td> 4 </td> <td> California </td> <td> 73.333 </td> <td> W </td> <td> MPSF </td> <td> 72.531 </td> <td> 74.000 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>2</td> <td> 5 </td> <td> Ohio State </td> <td> 73.317 </td> <td> E </td> <td> Big 10 </td> <td> 73.417 </td> <td> 74.650 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 6 </td> <td> Stanford  </td> <td> 72.983 </td> <td> W </td> <td> MPSF </td> <td> 73.143 </td> <td> 74.900 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> - </td> <td> Oklahoma   </td> <td> 72.983 </td> <td> W </td> <td> MPSF </td> <td> 72.613 </td> <td> 73.150 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 8 </td> <td> Air Force Academy </td> <td> 72.917 </td> <td> W </td> <td> MPSF </td> <td> 72.050 </td> <td> 73.400 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 9 </td> <td> Nebraska   </td> <td> 72.767 </td> <td> W </td> <td> Big 10 </td> <td> 72.429 </td> <td> 73.600 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 10 </td> <td> Iowa   </td> <td> 72.317 </td> <td> E </td> <td> Big 10 </td> <td> 72.019 </td> <td> 73.050 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>3</td> <td> 11 </td> <td> Illinois   </td> <td> 72.167 </td> <td> E </td> <td> Big 10 </td> <td> 71.731 </td> <td> 73.200 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 12 </td> <td> William & Mary </td> <td> 71.750 </td> <td> E </td> <td> EIGL </td> <td> 71.169 </td> <td> 72.900 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 13 </td> <td> Army </td> <td> 70.967 </td> <td> E </td> <td> EIGL </td> <td> 70.800 </td> <td> 71.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 14 </td> <td> Navy </td> <td> 70.217 </td> <td> E </td> <td> EIGL </td> <td> 69.743 </td> <td> 71.450 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>2</td> <td> 15 </td> <td> Temple  </td> <td> 70.200 </td> <td> E </td> <td> EIGL </td> <td> 69.425 </td> <td> 71.600 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>2</td> <td> 16 </td> <td> UIC </td> <td> 70.050 </td> <td> E </td> <td> EIGL </td> <td> 69.822 </td> <td> 71.200 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 17 </td> <td> Springfield </td> <td> 70.033 </td> <td> E </td> <td> EIGL </td> <td> 68.894 </td> <td> 70.500 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>2</td> <td> 18 </td> <td> Arizona State </td> <td> 69.850 </td> <td> C </td> <td> Club </td> <td> 69.542 </td> <td> 70.650 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 19 </td> <td> Washington </td> <td> 59.950 </td> <td> C </td> <td> Club </td> <td> 60.975 </td> <td> 64.050 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 20 </td> <td> Brockport </td> <td> 29.133 </td> <td> C </td> <td> Club </td> <td> 36.288 </td> <td> 57.750 </td> <td> 1 </td> <td> 3 </td> </tr>
+  </table>
+ </div>
+                 <div class="men team pb">
+                     <small class="pull-right"><i>Men's Rankings Updated March 18, 2013</i></small>                      <h4>Men's Parallel Bars Ranking</h4>
+                  <table class="table-striped table-bordered table-condensed">
+  <tr><td class="RankChange"></td> <td class="Rank">Rank</td> <td class="TeamName">Team Name</td> <td class="PB4Ave">PB  4 Ave</td> <td class="Region">Region</td> <td class="Conference">Conference</td> <td class="Ave">Ave</td> <td class="High">High</td> <td class="HomeMeets">Home Meets</td> <td class="AwayMeets">Away Meets</td> </tr>
+ <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 1 </td> <td> Penn State </td> <td> 73.667 </td> <td> E </td> <td> Big 10 </td> <td> 72.950 </td> <td> 74.750 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 2 </td> <td> Michigan   </td> <td> 73.367 </td> <td> E </td> <td> Big 10 </td> <td> 72.400 </td> <td> 75.600 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 3 </td> <td> Oklahoma   </td> <td> 72.683 </td> <td> W </td> <td> MPSF </td> <td> 72.063 </td> <td> 73.850 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 4 </td> <td> Stanford  </td> <td> 71.833 </td> <td> W </td> <td> MPSF </td> <td> 71.614 </td> <td> 73.200 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 5 </td> <td> Illinois   </td> <td> 71.750 </td> <td> E </td> <td> Big 10 </td> <td> 71.100 </td> <td> 74.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 6 </td> <td> Minnesota   </td> <td> 71.717 </td> <td> E </td> <td> Big 10 </td> <td> 70.772 </td> <td> 72.950 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 7 </td> <td> Iowa   </td> <td> 71.583 </td> <td> E </td> <td> Big 10 </td> <td> 70.881 </td> <td> 72.600 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 8 </td> <td> Nebraska   </td> <td> 71.200 </td> <td> W </td> <td> Big 10 </td> <td> 70.500 </td> <td> 72.400 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 9 </td> <td> Air Force Academy </td> <td> 71.133 </td> <td> W </td> <td> MPSF </td> <td> 69.441 </td> <td> 72.650 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 10 </td> <td> Ohio State </td> <td> 70.567 </td> <td> E </td> <td> Big 10 </td> <td> 70.308 </td> <td> 72.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 11 </td> <td> California </td> <td> 70.167 </td> <td> W </td> <td> MPSF </td> <td> 68.838 </td> <td> 70.750 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 12 </td> <td> William & Mary </td> <td> 69.667 </td> <td> E </td> <td> EIGL </td> <td> 68.881 </td> <td> 70.400 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 13 </td> <td> Army </td> <td> 68.833 </td> <td> E </td> <td> EIGL </td> <td> 68.538 </td> <td> 69.500 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 14 </td> <td> Temple  </td> <td> 68.350 </td> <td> E </td> <td> EIGL </td> <td> 67.231 </td> <td> 71.000 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 15 </td> <td> Arizona State </td> <td> 67.033 </td> <td> C </td> <td> Club </td> <td> 66.933 </td> <td> 68.750 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 16 </td> <td> Navy </td> <td> 66.633 </td> <td> E </td> <td> EIGL </td> <td> 65.879 </td> <td> 67.700 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>2</td> <td> 17 </td> <td> UIC </td> <td> 66.383 </td> <td> E </td> <td> EIGL </td> <td> 66.622 </td> <td> 70.100 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 18 </td> <td> Springfield </td> <td> 65.983 </td> <td> E </td> <td> EIGL </td> <td> 65.456 </td> <td> 68.100 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 19 </td> <td> Washington </td> <td> 61.367 </td> <td> C </td> <td> Club </td> <td> 61.763 </td> <td> 62.950 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 20 </td> <td> Brockport </td> <td> 27.983 </td> <td> C </td> <td> Club </td> <td> 33.200 </td> <td> 48.850 </td> <td> 1 </td> <td> 3 </td> </tr>
+  </table>
+ </div>
+                 <div class="men team hb">
+                     <small class="pull-right"><i>Men's Rankings Updated March 18, 2013</i></small>                      <h4>Men's High Bar Ranking</h4>
+                  <table class="table-striped table-bordered table-condensed">
+  <tr><td class="RankChange"></td> <td class="Rank">Rank</td> <td class="TeamName">Team Name</td> <td class="HB4Ave">HB  4 Ave</td> <td class="Region">Region</td> <td class="Conference">Conference</td> <td class="Ave">Ave</td> <td class="High">High</td> <td class="HomeMeets">Home Meets</td> <td class="AwayMeets">Away Meets</td> </tr>
+ <tr><td></td> <td> 1 </td> <td> Penn State </td> <td> 74.800 </td> <td> E </td> <td> Big 10 </td> <td> 73.094 </td> <td> 76.050 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 2 </td> <td> Oklahoma   </td> <td> 72.667 </td> <td> W </td> <td> MPSF </td> <td> 71.781 </td> <td> 73.600 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 3 </td> <td> Stanford  </td> <td> 71.900 </td> <td> W </td> <td> MPSF </td> <td> 71.507 </td> <td> 73.450 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 4 </td> <td> Ohio State </td> <td> 71.867 </td> <td> E </td> <td> Big 10 </td> <td> 71.275 </td> <td> 73.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 5 </td> <td> Minnesota   </td> <td> 71.033 </td> <td> E </td> <td> Big 10 </td> <td> 69.972 </td> <td> 72.500 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 6 </td> <td> Illinois   </td> <td> 70.700 </td> <td> E </td> <td> Big 10 </td> <td> 69.963 </td> <td> 73.350 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>2</td> <td> 7 </td> <td> Iowa   </td> <td> 70.300 </td> <td> E </td> <td> Big 10 </td> <td> 69.194 </td> <td> 70.950 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>3</td> <td> - </td> <td> Nebraska   </td> <td> 70.300 </td> <td> W </td> <td> Big 10 </td> <td> 69.664 </td> <td> 71.500 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 9 </td> <td> Michigan   </td> <td> 70.250 </td> <td> E </td> <td> Big 10 </td> <td> 69.593 </td> <td> 72.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>3</td> <td> 10 </td> <td> California </td> <td> 70.050 </td> <td> W </td> <td> MPSF </td> <td> 69.244 </td> <td> 72.300 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 11 </td> <td> Air Force Academy </td> <td> 69.433 </td> <td> W </td> <td> MPSF </td> <td> 67.391 </td> <td> 71.000 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 12 </td> <td> William & Mary </td> <td> 68.117 </td> <td> E </td> <td> EIGL </td> <td> 67.150 </td> <td> 70.950 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 13 </td> <td> UIC </td> <td> 67.550 </td> <td> E </td> <td> EIGL </td> <td> 65.744 </td> <td> 69.800 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 14 </td> <td> Temple  </td> <td> 67.433 </td> <td> E </td> <td> EIGL </td> <td> 65.625 </td> <td> 69.350 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 15 </td> <td> Arizona State </td> <td> 66.483 </td> <td> C </td> <td> Club </td> <td> 65.917 </td> <td> 68.250 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="success"><i class="icon-arrow-up"></i>1</td> <td> 16 </td> <td> Springfield </td> <td> 65.833 </td> <td> E </td> <td> EIGL </td> <td> 65.506 </td> <td> 67.700 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td class="error"><i class="icon-arrow-down"></i>1</td> <td> 17 </td> <td> Navy </td> <td> 65.500 </td> <td> E </td> <td> EIGL </td> <td> 65.471 </td> <td> 67.600 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 18 </td> <td> Army </td> <td> 64.883 </td> <td> E </td> <td> EIGL </td> <td> 64.025 </td> <td> 66.200 </td> <td> 2 </td> <td> 2 </td> </tr>
+  <tr><td></td> <td> 19 </td> <td> Washington </td> <td> 60.217 </td> <td> C </td> <td> Club </td> <td> 60.850 </td> <td> 62.750 </td> <td> 1 </td> <td> 3 </td> </tr>
+  <tr><td></td> <td> 20 </td> <td> Brockport </td> <td> 21.150 </td> <td> C </td> <td> Club </td> <td> 21.475 </td> <td> 22.450 </td> <td> 1 </td> <td> 3 </td> </tr>
+  </table>
+ </div>
+                 <script src="jquery-1.9.1.js"></script>
+                 <script type="text/javascript">                     $("div.men.team.fx").hide();
+                     $("div.men.team.ph").hide();
+                     $("div.men.team.sr").hide();
+                     $("div.men.team.v").hide();
+                     $("div.men.team.pb").hide();
+                     $("div.men.team.hb").hide();
+                 </script>
+             </div>
+         </div>
+         <footer class="well">              <a href="mailto:dfrankl@stanford.edu">dfrankl@stanford.edu</a>              <a class="pull-right" href = "http://davidfrankl.us">davidfrankl.us</a>          </footer>      </div>
+     <script>         var men = true;
+         var team = true;
+          var menTeamAccessed = true;
+         var menIndivAccessed = false;
+         var womenTeamAccessed = false;
+         var womenIndivAccessed = false;
+                  var screenWidth;
+          function accessed(isMen, isTeam){
+             if(isMen){
+                 if(isTeam) return menTeamAccessed;
+                 return menIndivAccessed;
+             }             if(isTeam) return womenTeamAccessed;
+             return womenIndivAccessed;
+         }          function getEvent(elem){
+             var events = ['t', 'aa', 'v', 'fx', 'ph', 'sr', 'pb', 'hb', 'ub', 'bb'];
+                          for(var i=0;
+ i<events.length;
+ i++){
+                 if(elem.hasClass(events[i])) return events[i];
+             }         }          function getGenderStr(){
+             if(men) return "men";
+             return "women";
+         }          function getTeamStr(){
+             if(team) return "team";
+             return "individual";
+         }          function showDiv(eventName){
+             $("div."+getGenderStr()+"."+getTeamStr()+"."+eventName).show();
+         }          function access(isMen, isTeam){
+             if(accessed(isMen, isTeam)) return;
+              var url;
+             if(isMen){
+                 url='menIndiv.html';
+                 menIndivAccessed=true;
+             }             else if(isTeam){
+                 url='womenTeam.html';
+                 womenTeamAccessed=true;
+             }             else{
+                 url='womenIndiv.html';
+                 womenIndivAccessed=true;
+             }              $.get(url, function(data){
+                 $('.span8').append(data);
+                 $('.span8 div').hide();
+                  var eventName = getEvent($("div.well li.active"));
+                 showDiv(eventName);
+             });
+         }          function toggleGender(){
+             var oldGender = getGenderStr();
+                          men = !men;
+             access(men, team);
+              var teamIndiv = getTeamStr();
+              var newGender = getGenderStr();
+              $('button#'+oldGender).removeClass('active');
+             $('button#'+newGender).addClass('active');
+                          $('.'+oldGender+'.'+teamIndiv).hide();
+                          $('.nav li').removeClass('active');
+             $('li.'+newGender+'.'+teamIndiv).show();
+                          var eventName;
+             if(team) eventName = 't';
+             else eventName = 'aa';
+                          $('.'+newGender+'.'+teamIndiv+'.'+eventName).show();
+             $("li."+newGender+"."+teamIndiv+'.'+eventName).addClass("active");
+         }          function toggleTeamIndiv(){
+             var oldTeamIndiv = getTeamStr();
+                          team = !team;
+             access(men, team);
+              var newTeamIndiv = getTeamStr();
+                          var gender = getGenderStr();
+              var eventName = getEvent($(".nav li.active"));
+                          $('button#'+oldTeamIndiv).removeClass('active');
+             $('button#'+newTeamIndiv).addClass('active');
+                          $('.'+gender+'.'+oldTeamIndiv).hide();
+                          $(".nav li").removeClass("active");
+             $("li."+gender+"."+newTeamIndiv).show();
+                          if(eventName=="aa") eventName = "t";
+             else if(eventName=="t") eventName = "aa";
+              $('div.'+gender+'.'+newTeamIndiv+'.'+eventName).show();
+             $('li.'+eventName).addClass('active');
+         }          $( document ).ready(function(){
+             screenWidth = screen.width;
+                          if(screenWidth<700){
+                 $("div.span8").hide();
+                                  $('div.row').css('min-height', 0);
+                 $("div.row").css('max-height', screen.height);
+                 $('div.row').css('padding-bottom', '20px');
+                                  $("div.container").css('max-width', screenWidth);
+                 $("footer").css('max-width', screenWidth);
+                  //$("div.span8 div").css('overflow', 'scroll');
+                  $("table").css("margin", "0 15px");
+                  $("div.well").css('width', screenWidth-40);
+                 $("div.well").css('max-width', screenWidth-40);
+                 $("div.well").css('min-width', screenWidth-40);
+                                  $(".masthead").css('width', screenWidth);
+                 $(".masthead").css('max-width', screenWidth);
+                 $(".masthead").css('min-width', screenWidth);
+                                  $('div.well').css('margin', '10px auto');
+                  $('.nav li').removeClass('active');
+                                  $('.span4 div').removeClass('affix');
+                                  $('.btn-toolbar').css('margin', '10 auto');
+                                  $('.masthead small').hide();
+                 $('.span8').css('padding-top', '80px');
+                                  $('.desktop').hide();
+             }                          $("li").click(function( event ){
+                 if($(this).hasClass('buttonGroup')) return;
+                  $(".nav li").removeClass("active");
+                  $(this).addClass("active");
+                  $(".span8 div").hide();
+                  var eventName = getEvent($(this));
+                 showDiv(eventName);
+                                  if(screenWidth<700){
+                     $(".span4").hide();
+                     $(".mobile").show();
+                     $(".span8").show();
+                     $('.masthead').addClass('affix');
+                 }             });
+              $("#menWomen button").click(function( event ){
+                 if(!$(this).hasClass('active')){
+                     toggleGender();
+                 }              });
+              $('#teamIndiv button').click(function( event ){
+                 if(!$(this).hasClass('active')){
+                     toggleTeamIndiv();
+                 }              });
+             $(".mobile").click(function( event ){
+                 $('.masthead').removeClass('affix');
+                                  $("div.well li").removeClass("active");
+                  $(".mobile").hide();
+                 $(".span8").hide();
+                  $(".span4").show();
+                                               });
+         });
+     </script>
+  </body>
+  </html>
+   

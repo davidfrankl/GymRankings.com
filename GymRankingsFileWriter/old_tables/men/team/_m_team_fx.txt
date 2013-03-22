@@ -1,0 +1,22 @@
+<table>
+ <tr> <td>Rank</td> <td>Team Name</td> <td>Fx  3 Ave</td> <td>Region</td> <td>Conference</td> <td>Ave</td> <td>High</td> <td>Home Meets</td> <td>Away Meets</td> <tr> <td> 1 </td> <td> Michigan   </td> <td> 75.517 </td> <td> E </td> <td> Big 10 </td> <td> 74.208 </td> <td> 76.800 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 2 </td> <td> Oklahoma   </td> <td> 75.400 </td> <td> W </td> <td> MPSF </td> <td> 73.519 </td> <td> 75.850 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 3 </td> <td> Stanford  </td> <td> 75.250 </td> <td> W </td> <td> MPSF </td> <td> 72.929 </td> <td> 75.850 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 4 </td> <td> Ohio State </td> <td> 75.000 </td> <td> E </td> <td> Big 10 </td> <td> 74.183 </td> <td> 75.350 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 5 </td> <td> Penn State </td> <td> 74.400 </td> <td> E </td> <td> Big 10 </td> <td> 73.100 </td> <td> 74.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 6 </td> <td> Minnesota   </td> <td> 74.367 </td> <td> E </td> <td> Big 10 </td> <td> 72.550 </td> <td> 74.750 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 7 </td> <td> California </td> <td> 74.150 </td> <td> W </td> <td> MPSF </td> <td> 73.121 </td> <td> 74.200 </td> <td> 1 </td> <td> 3 </td> </tr>
+ <tr> <td> 8 </td> <td> Illinois   </td> <td> 73.650 </td> <td> E </td> <td> Big 10 </td> <td> 72.357 </td> <td> 74.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 9 </td> <td> Nebraska   </td> <td> 72.567 </td> <td> W </td> <td> Big 10 </td> <td> 71.392 </td> <td> 73.450 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 10 </td> <td> Iowa   </td> <td> 71.767 </td> <td> E </td> <td> Big 10 </td> <td> 70.914 </td> <td> 71.900 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 11 </td> <td> Army </td> <td> 71.717 </td> <td> E </td> <td> EIGL </td> <td> 70.507 </td> <td> 71.800 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 12 </td> <td> Temple  </td> <td> 71.383 </td> <td> E </td> <td> EIGL </td> <td> 69.858 </td> <td> 73.000 </td> <td> 1 </td> <td> 3 </td> </tr>
+ <tr> <td> 13 </td> <td> Air Force Academy </td> <td> 70.850 </td> <td> W </td> <td> MPSF </td> <td> 69.756 </td> <td> 72.150 </td> <td> 0 </td> <td> 4 </td> </tr>
+ <tr> <td> 14 </td> <td> William & Mary </td> <td> 70.700 </td> <td> E </td> <td> EIGL </td> <td> 69.236 </td> <td> 71.350 </td> <td> 0 </td> <td> 4 </td> </tr>
+ <tr> <td> 15 </td> <td> UIC </td> <td> 70.233 </td> <td> E </td> <td> EIGL </td> <td> 67.869 </td> <td> 71.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 16 </td> <td> Arizona State </td> <td> 69.767 </td> <td> C </td> <td> Club </td> <td> 68.308 </td> <td> 70.350 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 17 </td> <td> Navy </td> <td> 69.350 </td> <td> E </td> <td> EIGL </td> <td> 67.758 </td> <td> 70.550 </td> <td> 2 </td> <td> 2 </td> </tr>
+ <tr> <td> 18 </td> <td> Springfield </td> <td> 68.333 </td> <td> E </td> <td> EIGL </td> <td> 66.979 </td> <td> 68.700 </td> <td> 1 </td> <td> 3 </td> </tr>
+ <tr> <td> 19 </td> <td> Washington </td> <td> 62.650 </td> <td> C </td> <td> Club </td> <td> 62.650 </td> <td> 63.200 </td> <td> 1 </td> <td> 2 </td> </tr>
+ <tr> <td> 20 </td> <td> Brockport </td> <td> 47.483 </td> <td> C </td> <td> Club </td> <td> 44.625 </td> <td> 61.850 </td> <td> 1 </td> <td> 3 </td> </tr>
+ </table>

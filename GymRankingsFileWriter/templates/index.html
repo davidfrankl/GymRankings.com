@@ -1,0 +1,435 @@
+<!DOCTYPE html> 
+<html>
+<head>
+    <title>Gym Rankings: the Latest in NCAA Gymnastics Rankings</title>
+    <meta name="description" content="The new site for NCAA Men's and Women's Gymnastics Rankings. Updated every week with the latest Team and Individual scores.">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"> 
+    <style type="text/css"> 
+        div.row{
+            min-height: 700px;
+            height: auto !important;
+            height: 700px;
+            padding-bottom: 300px;
+        }
+        .masthead{
+            background-color: #ffffff;
+        }
+        .masthead div{
+            padding-top: 10px;
+        }
+        .container{
+            width: 980px;
+        }
+        .span8{
+            width: 660px;
+        }
+        td{
+            width: 0%;
+        }
+        .men .TeamName{
+            width: 21% !important;
+        }
+        .men .Conference{
+            width: 10%;
+        }
+        .women .Conference{
+            width: 14%;
+        }
+        .women .TeamName{
+            width: 24%;
+        }
+        .RankChange{
+            width: 7%;
+        }
+        .success{
+            background-color: #a5cf35 !important;
+        }
+        .error{
+            background-color: #c44b4b !important;
+        }
+        footer{
+            background-color: #f5f5f5;
+            padding-bottom:20px;
+        }
+        footer a{
+            color: #0088cc;
+        }
+        footer a:hover {
+            text-decoration: none;
+            color: #ffffff;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+            background-color: #0088cc;
+        }
+    </style>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39063423-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+    <script src="jquery-1.9.1.js">
+    </script>
+    <script type="text/javascript">var switchTo5x=true;</script>
+    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+    <script type="text/javascript">stLight.options({publisher: "ur-f2c4f0cd-f2d4-c4eb-4c58-edc03af74ed6", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar" data-twttr-rendered="true"> 
+    <script src="http://code.jquery.com/jquery-latest.js"></script> <script src="bootstrap/js/bootstrap.min.js"></script> 
+    <div class="container">
+	<div class="masthead">
+            <a href="#" class="btn btn-large btn-primary pull-right mobile">&laquo; Back</a>
+            <script type="text/javascript">
+                $(".mobile").hide();
+            </script>
+            <div class="pull-right desktop">
+                <span class='st_facebook_large' displayText='Facebook'></span>
+                <span class='st_twitter_large' displayText='Tweet'></span>
+                <span class='st_email_large' displayText='Email'></span>
+                <span class='st_googleplus_large' displayText='Google +'></span>
+            </div>
+            <h3 class="muted">Gym Rankings <small>The Latest NCAA Gymnastics Rankings</small></h3>
+            <hr>
+	</div>
+        <div class="row">
+            <div class="span4">
+                <div class="affix">
+                    <div class="well sidebar-nav">
+                        <div class="btn-toolbar">
+                            <div id="menWomen" class="btn-group">
+                                <button id="men" class="btn btn-small active">Men</button> 
+                                <button id="women" class="btn btn-small">Women</button> 
+                            </div>
+                            <div id="teamIndiv" class="btn-group">
+                                <button id="team" class="btn btn-small active">Team</button> 
+                                <button id="individual" class="btn btn-small">Individual</button> 
+                            </div>
+                        </div>
+                        <ul class="nav nav-list"> 
+                            
+                            <li class="men team t active"><a>Team</a></li>
+                            <li class="men team fx"><a>Floor</a></li>
+                            <li class="men team ph"><a>Pommel Horse</a></li>
+                            <li class="men team sr"><a>Rings</a></li>
+                            <li class="men team v"><a>Vault</a></li>
+                            <li class="men team pb"><a>Parallel Bars</a></li>
+                            <li class="men team hb"><a>High Bar</a></li>
+
+                            <li class="men individual aa active"><a>All-Around</a></li>
+                            <li class="men individual fx"><a>Floor</a></li>
+                            <li class="men individual ph"><a>Pommel Horse</a></li>
+                            <li class="men individual sr"><a>Rings</a></li>
+                            <li class="men individual v"><a>Vault</a></li>
+                            <li class="men individual pb"><a>Parallel Bars</a></li>
+                            <li class="men individual hb"><a>High Bar</a></li>
+
+                            <li class="women team t active"><a>Team</a></li>
+                            <li class="women team v"><a>Vault</a></li>
+                            <li class="women team ub"><a>Bars</a></li>
+                            <li class="women team bb"><a>Beam</a></li>
+                            <li class="women team fx"><a>Floor</a></li>
+
+                            <li class="women individual aa active"><a>All-Around</a></li>
+                            <li class="women individual v"><a>Vault</a></li>
+                            <li class="women individual ub"><a>Bars</a></li>
+                            <li class="women individual bb"><a>Beam</a></li>
+                            <li class="women individual fx"><a>Floor</a></li>
+                        </ul>
+                        <script src="jquery-1.9.1.js"></script>
+                        <script type="text/javascript">
+                            $(".men.individual").hide();
+                            $(".women").hide();
+                            if(screen.width<700){
+                                $("div.well").css('width', screen.width);
+                            }
+                        </script>
+                    </div>
+                    <div class="well sidebar-nav">
+                    <iframe src="http://rcm.amazon.com/e/cm?t=gymra-20&o=1&p=8&l=as1&asins=B000PKK6WC&ref=tf_til&fc1=000000&IS2=1&lt1=_blank&m=amazon&lc1=0088CC&bc1=F5F5F5&bg1=F5F5F5&f=ifr" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+                    <iframe src="http://rcm.amazon.com/e/cm?lt1=_blank&bc1=F5F5F5&IS2=1&bg1=F5F5F5&fc1=000000&lc1=0088CC&t=gymra-20&o=1&p=8&l=as1&m=amazon&f=ifr&ref=tf_til&asins=B0002V9PAI" style="width:120px;height:240px;" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>
+                    </div>
+                    
+                    <div class="well sidebar-nav desktop">
+                        <ul class="nav nav-list">
+                            <li class="nav-header">Weekly Rank Change:</li>
+                        </ul>
+                            <div>
+                            <table>
+                                <tr><td class="success"><i class="icon-arrow-up"></i>1</td><td>Up 1 Rank since last week</td></tr>
+                                <tr><td class="error"><i class="icon-arrow-down"></i>1</td><td>Down 1 Rank since last week</td></tr>
+                                <tr><td class="success"><i class="icon-arrow-up"></i>NR</td><td>Not Ranked last week</td></tr>
+                            </table>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div class="span8">
+                <div class="men team t">
+                    <small class="pull-right"><i>Men's Rankings Updated </i></small>
+
+                    <h4>Men's Team Ranking</h4>
+
+                </div>
+                <div class="men team fx">
+                    <small class="pull-right"><i>Men's Rankings Updated </i></small>
+
+                    <h4>Men's Floor Ranking</h4>
+
+                </div>
+                <div class="men team ph">
+                    <small class="pull-right"><i>Men's Rankings Updated </i></small>
+
+                    <h4>Men's Pommel Horse Ranking</h4>
+
+                </div>
+                <div class="men team sr">
+                    <small class="pull-right"><i>Men's Rankings Updated </i></small>
+
+                    <h4>Men's Rings Ranking</h4>
+
+                </div>
+                <div class="men team v">
+                    <small class="pull-right"><i>Men's Rankings Updated </i></small>
+
+                    <h4>Men's Vault Ranking</h4>
+
+                </div>
+                <div class="men team pb">
+                    <small class="pull-right"><i>Men's Rankings Updated </i></small>
+
+                    <h4>Men's Parallel Bars Ranking</h4>
+
+                </div>
+                <div class="men team hb">
+                    <small class="pull-right"><i>Men's Rankings Updated </i></small>
+
+                    <h4>Men's High Bar Ranking</h4>
+
+                </div>
+                <script src="jquery-1.9.1.js"></script>
+                <script type="text/javascript">
+                    $("div.men.team.fx").hide();
+                    $("div.men.team.ph").hide();
+                    $("div.men.team.sr").hide();
+                    $("div.men.team.v").hide();
+                    $("div.men.team.pb").hide();
+                    $("div.men.team.hb").hide();
+                </script>
+            </div>
+        </div>
+        <footer class="well"> 
+            <a href="mailto:dfrankl@stanford.edu">dfrankl@stanford.edu</a> 
+            <a class="pull-right" href = "http://davidfrankl.us">davidfrankl.us</a> 
+        </footer> 
+    </div>
+    <script>
+        var men = true;
+        var team = true;
+
+        var menTeamAccessed = true;
+        var menIndivAccessed = false;
+        var womenTeamAccessed = false;
+        var womenIndivAccessed = false;
+        
+        var screenWidth;
+
+        function accessed(isMen, isTeam){
+            if(isMen){
+                if(isTeam) return menTeamAccessed;
+                return menIndivAccessed;
+            }
+            if(isTeam) return womenTeamAccessed;
+            return womenIndivAccessed;
+        }
+
+        function getEvent(elem){
+            var events = ['t', 'aa', 'v', 'fx', 'ph', 'sr', 'pb', 'hb', 'ub', 'bb'];
+            
+            for(var i=0; i<events.length; i++){
+                if(elem.hasClass(events[i])) return events[i];
+            }
+        }
+
+        function getGenderStr(){
+            if(men) return "men";
+            return "women";
+        }
+
+        function getTeamStr(){
+            if(team) return "team";
+            return "individual";
+        }
+
+        function showDiv(eventName){
+            $("div."+getGenderStr()+"."+getTeamStr()+"."+eventName).show();
+        }
+
+        function access(isMen, isTeam){
+            if(accessed(isMen, isTeam)) return;
+
+            var url;
+            if(isMen){
+                url='menIndiv.html';
+                menIndivAccessed=true;
+            }
+            else if(isTeam){
+                url='womenTeam.html';
+                womenTeamAccessed=true;
+            }
+            else{
+                url='womenIndiv.html';
+                womenIndivAccessed=true;
+            }
+
+            $.get(url, function(data){
+                $('.span8').append(data);
+                $('.span8 div').hide();
+
+                var eventName = getEvent($("div.well li.active"));
+                showDiv(eventName);
+            });
+        }
+
+        function toggleGender(){
+            var oldGender = getGenderStr();
+            
+            men = !men;
+            access(men, team);
+
+            var teamIndiv = getTeamStr();
+
+            var newGender = getGenderStr();
+
+            $('button#'+oldGender).removeClass('active');
+            $('button#'+newGender).addClass('active');
+            
+            $('.'+oldGender+'.'+teamIndiv).hide();
+            
+            $('.nav li').removeClass('active');
+            $('li.'+newGender+'.'+teamIndiv).show();
+            
+            var eventName;
+            if(team) eventName = 't';
+            else eventName = 'aa';
+            
+            $('.'+newGender+'.'+teamIndiv+'.'+eventName).show();
+            $("li."+newGender+"."+teamIndiv+'.'+eventName).addClass("active");
+        }
+
+        function toggleTeamIndiv(){
+            var oldTeamIndiv = getTeamStr();
+            
+            team = !team;
+            access(men, team);
+
+            var newTeamIndiv = getTeamStr();
+            
+            var gender = getGenderStr();
+
+            var eventName = getEvent($(".nav li.active"));
+            
+            $('button#'+oldTeamIndiv).removeClass('active');
+            $('button#'+newTeamIndiv).addClass('active');
+            
+            $('.'+gender+'.'+oldTeamIndiv).hide();
+            
+            $(".nav li").removeClass("active");
+            $("li."+gender+"."+newTeamIndiv).show();
+            
+            if(eventName=="aa") eventName = "t";
+            else if(eventName=="t") eventName = "aa";
+
+            $('div.'+gender+'.'+newTeamIndiv+'.'+eventName).show();
+            $('li.'+eventName).addClass('active');
+        }
+
+        $( document ).ready(function(){
+            screenWidth = screen.width;
+            
+            if(screenWidth<700){
+                $("div.span8").hide();
+                
+                $('div.row').css('min-height', 0);
+                $("div.row").css('max-height', screen.height);
+                $('div.row').css('padding-bottom', '20px');
+                
+                $("div.container").css('max-width', screenWidth);
+                $("footer").css('max-width', screenWidth);
+
+                //$("div.span8 div").css('overflow', 'scroll');
+
+                $("table").css("margin", "0 15px");
+
+                $("div.well").css('width', screenWidth-40);
+                $("div.well").css('max-width', screenWidth-40);
+                $("div.well").css('min-width', screenWidth-40);
+                
+                $(".masthead").css('width', screenWidth);
+                $(".masthead").css('max-width', screenWidth);
+                $(".masthead").css('min-width', screenWidth);
+                
+                $('div.well').css('margin', '10px auto');
+
+                $('.nav li').removeClass('active');
+                
+                $('.span4 div').removeClass('affix');
+                
+                $('.btn-toolbar').css('margin', '10 auto');
+                
+                $('.masthead small').hide();
+                $('.span8').css('padding-top', '80px');
+                
+                $('.desktop').hide();
+            }
+            
+            $("li").click(function( event ){
+                if($(this).hasClass('buttonGroup')) return;
+
+                $(".nav li").removeClass("active");
+
+                $(this).addClass("active");
+
+                $(".span8 div").hide();
+
+                var eventName = getEvent($(this));
+                showDiv(eventName);
+                
+                if(screenWidth<700){
+                    $(".span4").hide();
+                    $(".mobile").show();
+                    $(".span8").show();
+                    $('.masthead').addClass('affix');
+                }
+            });
+
+            $("#menWomen button").click(function( event ){
+                if(!$(this).hasClass('active')){
+                    toggleGender();
+                } 
+            });
+
+            $('#teamIndiv button').click(function( event ){
+                if(!$(this).hasClass('active')){
+                    toggleTeamIndiv();
+                } 
+            });
+            $(".mobile").click(function( event ){
+                $('.masthead').removeClass('affix');
+                
+                $("div.well li").removeClass("active");
+
+                $(".mobile").hide();
+                $(".span8").hide();
+
+                $(".span4").show();
+                
+                
+            });
+        });
+    </script>
+ </body>
+ </html>
+ 

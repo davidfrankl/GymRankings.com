@@ -1,0 +1,27 @@
+<table>
+ <tr> <td>Rank</td> <td>First Name</td> <td>Last Name</td> <td>Aa  3 Ave</td> <td>Team</td> <td>Region</td> <td>Conference</td> <td>Ave</td> <td>High</td> <tr> <td> 1 </td> <td> Eddie </td> <td> Penev </td> <td> 88.750 </td> <td> Stanford  </td> <td> W </td> <td> MPSF </td> <td> 87.730 </td> <td> 89.100 </td> </tr>
+ <tr> <td> 2 </td> <td> Adrian </td> <td> de los Angeles </td> <td> 88.683 </td> <td> Michigan   </td> <td> E </td> <td> Big 10 </td> <td> 88.100 </td> <td> 89.200 </td> </tr>
+ <tr> <td> 3 </td> <td> Felix </td> <td> Aronovich </td> <td> 87.950 </td> <td> Penn State </td> <td> E </td> <td> Big 10 </td> <td> 87.950 </td> <td> 88.800 </td> </tr>
+ <tr> <td> 4 </td> <td> Alec </td> <td> Robin </td> <td> 85.883 </td> <td> Oklahoma   </td> <td> W </td> <td> MPSF </td> <td> 84.650 </td> <td> 86.250 </td> </tr>
+ <tr> <td> 5 </td> <td> Javier </td> <td> Balboa </td> <td> 85.817 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 84.400 </td> <td> 85.950 </td> </tr>
+ <tr> <td> 6 </td> <td> Yoshi </td> <td> Mori </td> <td> 85.217 </td> <td> Illinois   </td> <td> E </td> <td> Big 10 </td> <td> 82.800 </td> <td> 86.800 </td> </tr>
+ <tr> <td> 7 </td> <td> Joey </td> <td> Peters </td> <td> 85.000 </td> <td> Illinois   </td> <td> E </td> <td> Big 10 </td> <td> 84.430 </td> <td> 85.850 </td> </tr>
+ <tr> <td> 8 </td> <td> Jesse </td> <td> Glenn </td> <td> 84.817 </td> <td> Army </td> <td> E </td> <td> EIGL </td> <td> 82.667 </td> <td> 85.950 </td> </tr>
+ <tr> <td> 9 </td> <td> Daniel </td> <td> Potemski </td> <td> 83.600 </td> <td> William & Mary </td> <td> E </td> <td> EIGL </td> <td> 83.250 </td> <td> 84.400 </td> </tr>
+ <tr> <td> 10 </td> <td> Lance </td> <td> Alberhasky </td> <td> 83.300 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 82.730 </td> <td> 83.600 </td> </tr>
+ <tr> <td> 11 </td> <td> Kevin </td> <td> Wolting </td> <td> 83.233 </td> <td> California </td> <td> W </td> <td> MPSF </td> <td> 81.988 </td> <td> 85.700 </td> </tr>
+ <tr> <td> 12 </td> <td> Joseph </td> <td> Hodges </td> <td> 83.067 </td> <td> UIC </td> <td> E </td> <td> EIGL </td> <td> 80.629 </td> <td> 84.100 </td> </tr>
+ <tr> <td> 13 </td> <td> CJ </td> <td> Schaaf </td> <td> 82.850 </td> <td> Nebraska   </td> <td> W </td> <td> Big 10 </td> <td> 81.970 </td> <td> 83.900 </td> </tr>
+ <tr> <td> 14 </td> <td> Lee </td> <td> Wilkerson </td> <td> 82.333 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 80.633 </td> <td> 83.750 </td> </tr>
+ <tr> <td> 15 </td> <td> Chris </td> <td> Junghans </td> <td> 81.967 </td> <td> Navy </td> <td> E </td> <td> EIGL </td> <td> 81.475 </td> <td> 82.550 </td> </tr>
+ <tr> <td> 16 </td> <td> Jason </td> <td> Gaides </td> <td> 81.917 </td> <td> UIC </td> <td> E </td> <td> EIGL </td> <td> 79.581 </td> <td> 82.800 </td> </tr>
+ <tr> <td> 17 </td> <td> Alex </td> <td> Gadaur </td> <td> 81.900 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 81.900 </td> <td> 83.150 </td> </tr>
+ <tr> <td> 18 </td> <td> Allan </td> <td> Malone </td> <td> 81.550 </td> <td> Temple  </td> <td> E </td> <td> EIGL </td> <td> 81.087 </td> <td> 83.100 </td> </tr>
+ <tr> <td> 19 </td> <td> Kyle </td> <td> Zemeir </td> <td> 80.900 </td> <td> California </td> <td> W </td> <td> MPSF </td> <td> 80.900 </td> <td> 84.050 </td> </tr>
+ <tr> <td> 20 </td> <td> Keaton </td> <td> Ackerman </td> <td> 80.883 </td> <td> William & Mary </td> <td> E </td> <td> EIGL </td> <td> 80.170 </td> <td> 81.550 </td> </tr>
+ <tr> <td> 21 </td> <td> Jon </td> <td> Zirna </td> <td> 78.950 </td> <td> Springfield </td> <td> E </td> <td> EIGL </td> <td> 77.870 </td> <td> 79.650 </td> </tr>
+ <tr> <td> 22 </td> <td> Stephen </td> <td> Gragg </td> <td> 78.050 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 78.050 </td> <td> 80.350 </td> </tr>
+ <tr> <td> 23 </td> <td> Greg </td> <td> Steward </td> <td> 73.150 </td> <td> Washington </td> <td> C </td> <td> Club </td> <td> 73.150 </td> <td> 74.500 </td> </tr>
+ <tr> <td> 24 </td> <td> Peter </td> <td> Moser </td> <td> 72.483 </td> <td> Washington </td> <td> C </td> <td> Club </td> <td> 72.483 </td> <td> 74.900 </td> </tr>
+ <tr> <td> 25 </td> <td> Alec </td> <td> Chatterton </td> <td> 69.417 </td> <td> Brockport </td> <td> C </td> <td> Club </td> <td> 68.925 </td> <td> 69.900 </td> </tr>
+ </table>

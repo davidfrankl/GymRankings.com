@@ -1,0 +1,137 @@
+<table>
+ <tr> <td>Rank</td> <td>First Name</td> <td>Last Name</td> <td>V  3 Ave</td> <td>Team</td> <td>Region</td> <td>Conference</td> <td>Ave</td> <td>High</td> <tr> <td> 1 </td> <td> Eddie </td> <td> Penev </td> <td> 15.367 </td> <td> Stanford  </td> <td> W </td> <td> MPSF </td> <td> 14.760 </td> <td> 15.600 </td> </tr>
+ <tr> <td> 2 </td> <td> Sean </td> <td> Senters </td> <td> 15.300 </td> <td> Stanford  </td> <td> W </td> <td> MPSF </td> <td> 15.100 </td> <td> 15.400 </td> </tr>
+ <tr> <td> 3 </td> <td> Tristan </td> <td> Duverglas </td> <td> 15.267 </td> <td> Penn State </td> <td> E </td> <td> Big 10 </td> <td> 15.110 </td> <td> 15.350 </td> </tr>
+ <tr> <td> 4 </td> <td> Fred </td> <td> Hartville </td> <td> 15.267 </td> <td> Illinois   </td> <td> E </td> <td> Big 10 </td> <td> 14.829 </td> <td> 15.300 </td> </tr>
+ <tr> <td> 5 </td> <td> Stacey </td> <td> Ervin </td> <td> 15.217 </td> <td> Michigan   </td> <td> E </td> <td> Big 10 </td> <td> 14.858 </td> <td> 15.400 </td> </tr>
+ <tr> <td> 6 </td> <td> Jeff </td> <td> Treleaven </td> <td> 15.167 </td> <td> Ohio State </td> <td> E </td> <td> Big 10 </td> <td> 14.817 </td> <td> 15.300 </td> </tr>
+ <tr> <td> 7 </td> <td> Trevor </td> <td> Howard </td> <td> 15.150 </td> <td> Penn State </td> <td> E </td> <td> Big 10 </td> <td> 15.050 </td> <td> 15.200 </td> </tr>
+ <tr> <td> 8 </td> <td> Adam </td> <td> Kern </td> <td> 15.083 </td> <td> Minnesota   </td> <td> E </td> <td> Big 10 </td> <td> 14.800 </td> <td> 15.300 </td> </tr>
+ <tr> <td> 9 </td> <td> Larry </td> <td> Mayer </td> <td> 15.017 </td> <td> Ohio State </td> <td> E </td> <td> Big 10 </td> <td> 14.625 </td> <td> 15.350 </td> </tr>
+ <tr> <td> 10 </td> <td> Grant </td> <td> Perdue </td> <td> 15.000 </td> <td> Nebraska   </td> <td> W </td> <td> Big 10 </td> <td> 14.464 </td> <td> 15.150 </td> </tr>
+ <tr> <td> 11 </td> <td> Adam </td> <td> LaFleur </td> <td> 14.983 </td> <td> Minnesota   </td> <td> E </td> <td> Big 10 </td> <td> 14.406 </td> <td> 15.150 </td> </tr>
+ <tr> <td> 12 </td> <td> Tory </td> <td> Brown </td> <td> 14.967 </td> <td> Air Force Academy </td> <td> W </td> <td> MPSF </td> <td> 14.806 </td> <td> 15.050 </td> </tr>
+ <tr> <td> - </td> <td> Drew </td> <td> Moling </td> <td> 14.967 </td> <td> Ohio State </td> <td> E </td> <td> Big 10 </td> <td> 14.683 </td> <td> 15.050 </td> </tr>
+ <tr> <td> - </td> <td> Matt </td> <td> Felleman </td> <td> 14.967 </td> <td> Penn State </td> <td> E </td> <td> Big 10 </td> <td> 14.500 </td> <td> 15.100 </td> </tr>
+ <tr> <td> 15 </td> <td> Kevin </td> <td> Wolting </td> <td> 14.950 </td> <td> California </td> <td> W </td> <td> MPSF </td> <td> 14.714 </td> <td> 15.100 </td> </tr>
+ <tr> <td> - </td> <td> Adrian </td> <td> de los Angeles </td> <td> 14.950 </td> <td> Michigan   </td> <td> E </td> <td> Big 10 </td> <td> 14.662 </td> <td> 15.300 </td> </tr>
+ <tr> <td> 17 </td> <td> Konner </td> <td> Ackerman </td> <td> 14.933 </td> <td> Michigan   </td> <td> E </td> <td> Big 10 </td> <td> 14.933 </td> <td> 15.350 </td> </tr>
+ <tr> <td> - </td> <td> Syque </td> <td> Caesar </td> <td> 14.933 </td> <td> Michigan   </td> <td> E </td> <td> Big 10 </td> <td> 14.875 </td> <td> 15.050 </td> </tr>
+ <tr> <td> - </td> <td> Gared </td> <td> Chapman </td> <td> 14.933 </td> <td> Air Force Academy </td> <td> W </td> <td> MPSF </td> <td> 14.375 </td> <td> 15.050 </td> </tr>
+ <tr> <td> 20 </td> <td> Alexis </td> <td> Torres </td> <td> 14.917 </td> <td> Penn State </td> <td> E </td> <td> Big 10 </td> <td> 14.525 </td> <td> 15.150 </td> </tr>
+ <tr> <td> 21 </td> <td> Parker </td> <td> Raque </td> <td> 14.900 </td> <td> Penn State </td> <td> E </td> <td> Big 10 </td> <td> 14.714 </td> <td> 15.000 </td> </tr>
+ <tr> <td> 22 </td> <td> Matthew </td> <td> del Junco </td> <td> 14.867 </td> <td> California </td> <td> W </td> <td> MPSF </td> <td> 14.636 </td> <td> 14.950 </td> </tr>
+ <tr> <td> - </td> <td> Zack </td> <td> Chase </td> <td> 14.867 </td> <td> Minnesota   </td> <td> E </td> <td> Big 10 </td> <td> 14.563 </td> <td> 15.300 </td> </tr>
+ <tr> <td> 24 </td> <td> Kip </td> <td> Webber </td> <td> 14.850 </td> <td> Army </td> <td> E </td> <td> EIGL </td> <td> 14.288 </td> <td> 15.300 </td> </tr>
+ <tr> <td> 25 </td> <td> Alec </td> <td> Robin </td> <td> 14.817 </td> <td> Oklahoma   </td> <td> W </td> <td> MPSF </td> <td> 14.525 </td> <td> 14.900 </td> </tr>
+ <tr> <td> 26 </td> <td> Brett </td> <td> Valin </td> <td> 14.817 </td> <td> UIC </td> <td> E </td> <td> EIGL </td> <td> 14.594 </td> <td> 14.950 </td> </tr>
+ <tr> <td> - </td> <td> William </td> <td> Albert </td> <td> 14.817 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 14.630 </td> <td> 15.050 </td> </tr>
+ <tr> <td> 28 </td> <td> Christian </td> <td> Montelcaro </td> <td> 14.800 </td> <td> California </td> <td> W </td> <td> MPSF </td> <td> 14.350 </td> <td> 14.900 </td> </tr>
+ <tr> <td> - </td> <td> Neal </td> <td> Courter </td> <td> 14.800 </td> <td> William & Mary </td> <td> E </td> <td> EIGL </td> <td> 14.586 </td> <td> 14.850 </td> </tr>
+ <tr> <td> 30 </td> <td> Matt </td> <td> Frey </td> <td> 14.783 </td> <td> Minnesota   </td> <td> E </td> <td> Big 10 </td> <td> 14.450 </td> <td> 14.900 </td> </tr>
+ <tr> <td> 31 </td> <td> Andrew </td> <td> Teal </td> <td> 14.767 </td> <td> Ohio State </td> <td> E </td> <td> Big 10 </td> <td> 14.658 </td> <td> 14.850 </td> </tr>
+ <tr> <td> 32 </td> <td> Raymond </td> <td> White </td> <td> 14.767 </td> <td> Oklahoma   </td> <td> W </td> <td> MPSF </td> <td> 14.675 </td> <td> 14.800 </td> </tr>
+ <tr> <td> 33 </td> <td> Dylan </td> <td> Akers </td> <td> 14.750 </td> <td> Oklahoma   </td> <td> W </td> <td> MPSF </td> <td> 14.471 </td> <td> 14.900 </td> </tr>
+ <tr> <td> - </td> <td> Taylor </td> <td> Harrower </td> <td> 14.750 </td> <td> Michigan   </td> <td> E </td> <td> Big 10 </td> <td> 14.600 </td> <td> 14.750 </td> </tr>
+ <tr> <td> 35 </td> <td> Sean </td> <td> Bauer </td> <td> 14.733 </td> <td> Minnesota   </td> <td> E </td> <td> Big 10 </td> <td> 14.494 </td> <td> 14.800 </td> </tr>
+ <tr> <td> - </td> <td> Yoshi </td> <td> Mori </td> <td> 14.733 </td> <td> Illinois   </td> <td> E </td> <td> Big 10 </td> <td> 14.450 </td> <td> 14.750 </td> </tr>
+ <tr> <td> 37 </td> <td> Kevin </td> <td> Baker </td> <td> 14.733 </td> <td> Stanford  </td> <td> W </td> <td> MPSF </td> <td> 14.529 </td> <td> 14.800 </td> </tr>
+ <tr> <td> 38 </td> <td> Brandon </td> <td> Field </td> <td> 14.717 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 14.650 </td> <td> 14.900 </td> </tr>
+ <tr> <td> - </td> <td> Steven </td> <td> Lacombe </td> <td> 14.717 </td> <td> California </td> <td> W </td> <td> MPSF </td> <td> 14.357 </td> <td> 15.100 </td> </tr>
+ <tr> <td> 40 </td> <td> Ryan </td> <td> Patterson </td> <td> 14.717 </td> <td> California </td> <td> W </td> <td> MPSF </td> <td> 14.275 </td> <td> 14.950 </td> </tr>
+ <tr> <td> 41 </td> <td> Jesse </td> <td> Glenn </td> <td> 14.700 </td> <td> Army </td> <td> E </td> <td> EIGL </td> <td> 14.362 </td> <td> 14.750 </td> </tr>
+ <tr> <td> 42 </td> <td> Ismael </td> <td> Sanabria </td> <td> 14.683 </td> <td> Penn State </td> <td> E </td> <td> Big 10 </td> <td> 14.550 </td> <td> 14.750 </td> </tr>
+ <tr> <td> 43 </td> <td> Daniel </td> <td> Steiner </td> <td> 14.683 </td> <td> Ohio State </td> <td> E </td> <td> Big 10 </td> <td> 14.042 </td> <td> 14.900 </td> </tr>
+ <tr> <td> - </td> <td> Mike </td> <td> Levy </td> <td> 14.683 </td> <td> Stanford  </td> <td> W </td> <td> MPSF </td> <td> 14.540 </td> <td> 14.850 </td> </tr>
+ <tr> <td> 45 </td> <td> Presten </td> <td> Ellsworth </td> <td> 14.667 </td> <td> Oklahoma   </td> <td> W </td> <td> MPSF </td> <td> 14.400 </td> <td> 15.100 </td> </tr>
+ <tr> <td> - </td> <td> Ellis </td> <td> Mannon </td> <td> 14.667 </td> <td> Minnesota   </td> <td> E </td> <td> Big 10 </td> <td> 14.370 </td> <td> 14.700 </td> </tr>
+ <tr> <td> - </td> <td> Paul </td> <td> Rizkalla </td> <td> 14.667 </td> <td> Michigan   </td> <td> E </td> <td> Big 10 </td> <td> 14.637 </td> <td> 14.800 </td> </tr>
+ <tr> <td> - </td> <td> Wyatt </td> <td> Aycock </td> <td> 14.667 </td> <td> Nebraska   </td> <td> W </td> <td> Big 10 </td> <td> 14.592 </td> <td> 14.700 </td> </tr>
+ <tr> <td> - </td> <td> Matt </td> <td> Loochtan </td> <td> 14.667 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 14.386 </td> <td> 14.950 </td> </tr>
+ <tr> <td> 50 </td> <td> Benjamin </td> <td> Zaiser </td> <td> 14.650 </td> <td> Air Force Academy </td> <td> W </td> <td> MPSF </td> <td> 14.294 </td> <td> 14.700 </td> </tr>
+ <tr> <td> 51 </td> <td> Javier </td> <td> Balboa </td> <td> 14.633 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 14.429 </td> <td> 14.750 </td> </tr>
+ <tr> <td> 52 </td> <td> Kanji </td> <td> Oyama </td> <td> 14.633 </td> <td> Oklahoma   </td> <td> W </td> <td> MPSF </td> <td> 14.633 </td> <td> 14.700 </td> </tr>
+ <tr> <td> - </td> <td> Alex </td> <td> Varga </td> <td> 14.633 </td> <td> Illinois   </td> <td> E </td> <td> Big 10 </td> <td> 14.300 </td> <td> 14.700 </td> </tr>
+ <tr> <td> 54 </td> <td> Landon </td> <td> Funiciello </td> <td> 14.617 </td> <td> William & Mary </td> <td> E </td> <td> EIGL </td> <td> 14.093 </td> <td> 15.050 </td> </tr>
+ <tr> <td> 55 </td> <td> Jonathan </td> <td> Deaton </td> <td> 14.600 </td> <td> Stanford  </td> <td> W </td> <td> MPSF </td> <td> 14.142 </td> <td> 14.800 </td> </tr>
+ <tr> <td> 56 </td> <td> Evan </td> <td> Burke </td> <td> 14.583 </td> <td> Temple  </td> <td> E </td> <td> EIGL </td> <td> 14.117 </td> <td> 14.900 </td> </tr>
+ <tr> <td> - </td> <td> Jacob </td> <td> Tilsley </td> <td> 14.583 </td> <td> Illinois   </td> <td> E </td> <td> Big 10 </td> <td> 14.092 </td> <td> 14.850 </td> </tr>
+ <tr> <td> 58 </td> <td> Josh </td> <td> Yee </td> <td> 14.567 </td> <td> Oklahoma   </td> <td> W </td> <td> MPSF </td> <td> 14.425 </td> <td> 14.850 </td> </tr>
+ <tr> <td> 59 </td> <td> Josh </td> <td> Wilson </td> <td> 14.567 </td> <td> Illinois   </td> <td> E </td> <td> Big 10 </td> <td> 14.380 </td> <td> 14.800 </td> </tr>
+ <tr> <td> 60 </td> <td> Denis </td> <td> Aurelius </td> <td> 14.550 </td> <td> Air Force Academy </td> <td> W </td> <td> MPSF </td> <td> 14.100 </td> <td> 14.600 </td> </tr>
+ <tr> <td> - </td> <td> Vaughn </td> <td> Pyne </td> <td> 14.550 </td> <td> Air Force Academy </td> <td> W </td> <td> MPSF </td> <td> 14.240 </td> <td> 14.750 </td> </tr>
+ <tr> <td> - </td> <td> Eric </td> <td> Viscardi </td> <td> 14.550 </td> <td> Navy </td> <td> E </td> <td> EIGL </td> <td> 14.342 </td> <td> 14.750 </td> </tr>
+ <tr> <td> 63 </td> <td> Paul </td> <td> Hichwa </td> <td> 14.533 </td> <td> Stanford  </td> <td> W </td> <td> MPSF </td> <td> 14.200 </td> <td> 14.800 </td> </tr>
+ <tr> <td> - </td> <td> Todd </td> <td> Dowdy </td> <td> 14.533 </td> <td> Oklahoma   </td> <td> W </td> <td> MPSF </td> <td> 14.358 </td> <td> 14.650 </td> </tr>
+ <tr> <td> 65 </td> <td> Jeff </td> <td> Sauers </td> <td> 14.500 </td> <td> Navy </td> <td> E </td> <td> EIGL </td> <td> 14.043 </td> <td> 14.600 </td> </tr>
+ <tr> <td> - </td> <td> Daniel </td> <td> Potemski </td> <td> 14.500 </td> <td> William & Mary </td> <td> E </td> <td> EIGL </td> <td> 14.308 </td> <td> 14.550 </td> </tr>
+ <tr> <td> 67 </td> <td> Josh </td> <td> Ungar </td> <td> 14.483 </td> <td> Nebraska   </td> <td> W </td> <td> Big 10 </td> <td> 14.483 </td> <td> 14.850 </td> </tr>
+ <tr> <td> 68 </td> <td> Jason </td> <td> Gaides </td> <td> 14.483 </td> <td> UIC </td> <td> E </td> <td> EIGL </td> <td> 14.275 </td> <td> 14.600 </td> </tr>
+ <tr> <td> - </td> <td> Chris </td> <td> Turner </td> <td> 14.483 </td> <td> Stanford  </td> <td> W </td> <td> MPSF </td> <td> 14.425 </td> <td> 14.600 </td> </tr>
+ <tr> <td> 70 </td> <td> Louis </td> <td> Klein </td> <td> 14.467 </td> <td> Nebraska   </td> <td> W </td> <td> Big 10 </td> <td> 14.380 </td> <td> 14.700 </td> </tr>
+ <tr> <td> 71 </td> <td> Matt </td> <td> Chelberg </td> <td> 14.450 </td> <td> Penn State </td> <td> E </td> <td> Big 10 </td> <td> 14.400 </td> <td> 14.500 </td> </tr>
+ <tr> <td> - </td> <td> Jake </td> <td> Martin </td> <td> 14.450 </td> <td> Ohio State </td> <td> E </td> <td> Big 10 </td> <td> 14.450 </td> <td> 15.050 </td> </tr>
+ <tr> <td> - </td> <td> Alex </td> <td> Gadaur </td> <td> 14.450 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 14.230 </td> <td> 14.700 </td> </tr>
+ <tr> <td> 74 </td> <td> Gabriel </td> <td> Jolley </td> <td> 14.433 </td> <td> Nebraska   </td> <td> W </td> <td> Big 10 </td> <td> 14.330 </td> <td> 14.500 </td> </tr>
+ <tr> <td> 75 </td> <td> Chris </td> <td> Jost </td> <td> 14.417 </td> <td> Springfield </td> <td> E </td> <td> EIGL </td> <td> 14.031 </td> <td> 14.550 </td> </tr>
+ <tr> <td> 76 </td> <td> Brian </td> <td> Knott </td> <td> 14.383 </td> <td> Stanford  </td> <td> W </td> <td> MPSF </td> <td> 14.383 </td> <td> 14.500 </td> </tr>
+ <tr> <td> 77 </td> <td> Ikaika </td> <td> Jakub </td> <td> 14.383 </td> <td> Army </td> <td> E </td> <td> EIGL </td> <td> 14.150 </td> <td> 14.450 </td> </tr>
+ <tr> <td> 78 </td> <td> Jeremy </td> <td> Cahill </td> <td> 14.333 </td> <td> Army </td> <td> E </td> <td> EIGL </td> <td> 13.900 </td> <td> 14.500 </td> </tr>
+ <tr> <td> - </td> <td> Brian </td> <td> Malone </td> <td> 14.333 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 14.158 </td> <td> 14.500 </td> </tr>
+ <tr> <td> - </td> <td> CJ </td> <td> Schaaf </td> <td> 14.333 </td> <td> Nebraska   </td> <td> W </td> <td> Big 10 </td> <td> 13.767 </td> <td> 14.450 </td> </tr>
+ <tr> <td> 81 </td> <td> Michael </td> <td> Deitz </td> <td> 14.300 </td> <td> William & Mary </td> <td> E </td> <td> EIGL </td> <td> 14.119 </td> <td> 14.400 </td> </tr>
+ <tr> <td> 82 </td> <td> John </td> <td> Leonard </td> <td> 14.283 </td> <td> Temple  </td> <td> E </td> <td> EIGL </td> <td> 14.150 </td> <td> 14.350 </td> </tr>
+ <tr> <td> 83 </td> <td> Anton </td> <td> Gryshayev </td> <td> 14.267 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 14.133 </td> <td> 14.300 </td> </tr>
+ <tr> <td> - </td> <td> Mitchell </td> <td> Larios </td> <td> 14.267 </td> <td> Navy </td> <td> E </td> <td> EIGL </td> <td> 14.267 </td> <td> 14.900 </td> </tr>
+ <tr> <td> - </td> <td> Jimmy </td> <td> Pezzino </td> <td> 14.267 </td> <td> Springfield </td> <td> E </td> <td> EIGL </td> <td> 14.267 </td> <td> 14.600 </td> </tr>
+ <tr> <td> 86 </td> <td> Cyrus </td> <td> Dobre-Mofid </td> <td> 14.233 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 14.233 </td> <td> 14.350 </td> </tr>
+ <tr> <td> 87 </td> <td> Thomas </td> <td> Hanson </td> <td> 14.183 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 14.058 </td> <td> 14.450 </td> </tr>
+ <tr> <td> - </td> <td> Danny </td> <td> Berardini </td> <td> 14.183 </td> <td> Oklahoma   </td> <td> W </td> <td> MPSF </td> <td> 14.100 </td> <td> 14.400 </td> </tr>
+ <tr> <td> - </td> <td> Corbin </td> <td> Palmer </td> <td> 14.183 </td> <td> Air Force Academy </td> <td> W </td> <td> MPSF </td> <td> 14.081 </td> <td> 14.200 </td> </tr>
+ <tr> <td> 90 </td> <td> Yoshi </td> <td> Morinishi </td> <td> 14.150 </td> <td> Minnesota   </td> <td> E </td> <td> Big 10 </td> <td> 14.150 </td> <td> 14.400 </td> </tr>
+ <tr> <td> 91 </td> <td> Kyle </td> <td> Zemeir </td> <td> 14.133 </td> <td> California </td> <td> W </td> <td> MPSF </td> <td> 13.908 </td> <td> 14.250 </td> </tr>
+ <tr> <td> 92 </td> <td> Kevin </td> <td> Ko </td> <td> 14.117 </td> <td> California </td> <td> W </td> <td> MPSF </td> <td> 14.117 </td> <td> 14.250 </td> </tr>
+ <tr> <td> - </td> <td> Micah </td> <td> Christensen </td> <td> 14.117 </td> <td> Nebraska   </td> <td> W </td> <td> Big 10 </td> <td> 13.800 </td> <td> 14.500 </td> </tr>
+ <tr> <td> - </td> <td> Alex </td> <td> Ganz </td> <td> 14.117 </td> <td> Army </td> <td> E </td> <td> EIGL </td> <td> 13.912 </td> <td> 14.200 </td> </tr>
+ <tr> <td> 95 </td> <td> Joseph </td> <td> Hodges </td> <td> 14.100 </td> <td> UIC </td> <td> E </td> <td> EIGL </td> <td> 13.714 </td> <td> 14.300 </td> </tr>
+ <tr> <td> 96 </td> <td> Mitchell </td> <td> Landau </td> <td> 14.100 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 14.100 </td> <td> 14.450 </td> </tr>
+ <tr> <td> 97 </td> <td> Daniel </td> <td> Zerbel </td> <td> 14.067 </td> <td> UIC </td> <td> E </td> <td> EIGL </td> <td> 14.025 </td> <td> 14.150 </td> </tr>
+ <tr> <td> 98 </td> <td> Keaton </td> <td> Ackerman </td> <td> 14.067 </td> <td> William & Mary </td> <td> E </td> <td> EIGL </td> <td> 13.844 </td> <td> 14.400 </td> </tr>
+ <tr> <td> 99 </td> <td> Phil </td> <td> Pruett </td> <td> 14.050 </td> <td> Temple  </td> <td> E </td> <td> EIGL </td> <td> 13.642 </td> <td> 14.300 </td> </tr>
+ <tr> <td> 100 </td> <td> Cameron </td> <td> Rogers </td> <td> 14.000 </td> <td> Illinois   </td> <td> E </td> <td> Big 10 </td> <td> 14.000 </td> <td> 14.150 </td> </tr>
+ <tr> <td> 101 </td> <td> Jared </td> <td> Breeden </td> <td> 13.983 </td> <td> Army </td> <td> E </td> <td> EIGL </td> <td> 13.864 </td> <td> 14.150 </td> </tr>
+ <tr> <td> 102 </td> <td> Lee </td> <td> Wilkerson </td> <td> 13.950 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 13.583 </td> <td> 14.050 </td> </tr>
+ <tr> <td> 103 </td> <td> Hans </td> <td> Degnan </td> <td> 13.917 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 13.408 </td> <td> 14.000 </td> </tr>
+ <tr> <td> - </td> <td> Josh </td> <td> Gong </td> <td> 13.917 </td> <td> Navy </td> <td> E </td> <td> EIGL </td> <td> 13.750 </td> <td> 14.050 </td> </tr>
+ <tr> <td> 105 </td> <td> Andy </td> <td> Grabowski </td> <td> 13.883 </td> <td> Springfield </td> <td> E </td> <td> EIGL </td> <td> 13.529 </td> <td> 14.000 </td> </tr>
+ <tr> <td> 106 </td> <td> Broderick </td> <td> Shemansky </td> <td> 13.833 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 13.833 </td> <td> 14.200 </td> </tr>
+ <tr> <td> 107 </td> <td> Scott </td> <td> Haddaway </td> <td> 13.817 </td> <td> Temple  </td> <td> E </td> <td> EIGL </td> <td> 13.817 </td> <td> 14.150 </td> </tr>
+ <tr> <td> 108 </td> <td> Tucker </td> <td> McClure </td> <td> 13.800 </td> <td> Springfield </td> <td> E </td> <td> EIGL </td> <td> 13.664 </td> <td> 13.850 </td> </tr>
+ <tr> <td> 109 </td> <td> Trent </td> <td> Jarrett </td> <td> 13.767 </td> <td> UIC </td> <td> E </td> <td> EIGL </td> <td> 13.664 </td> <td> 13.800 </td> </tr>
+ <tr> <td> - </td> <td> Simon </td> <td> Casey </td> <td> 13.767 </td> <td> William & Mary </td> <td> E </td> <td> EIGL </td> <td> 13.720 </td> <td> 13.850 </td> </tr>
+ <tr> <td> 111 </td> <td> Jacob </td> <td> Moses </td> <td> 13.750 </td> <td> Navy </td> <td> E </td> <td> EIGL </td> <td> 13.392 </td> <td> 13.900 </td> </tr>
+ <tr> <td> - </td> <td> Chris </td> <td> Junghans </td> <td> 13.750 </td> <td> Navy </td> <td> E </td> <td> EIGL </td> <td> 13.558 </td> <td> 13.950 </td> </tr>
+ <tr> <td> 113 </td> <td> Lance </td> <td> Alberhasky </td> <td> 13.717 </td> <td> Iowa   </td> <td> E </td> <td> Big 10 </td> <td> 13.530 </td> <td> 14.000 </td> </tr>
+ <tr> <td> - </td> <td> Felix </td> <td> Aronovich </td> <td> 13.717 </td> <td> Penn State </td> <td> E </td> <td> Big 10 </td> <td> 13.717 </td> <td> 14.100 </td> </tr>
+ <tr> <td> - </td> <td> Allan </td> <td> Malone </td> <td> 13.717 </td> <td> Temple  </td> <td> E </td> <td> EIGL </td> <td> 13.600 </td> <td> 13.850 </td> </tr>
+ <tr> <td> 116 </td> <td> Ian </td> <td> Stratton </td> <td> 13.700 </td> <td> Springfield </td> <td> E </td> <td> EIGL </td> <td> 13.700 </td> <td> 13.800 </td> </tr>
+ <tr> <td> 117 </td> <td> Joey </td> <td> Peters </td> <td> 13.683 </td> <td> Illinois   </td> <td> E </td> <td> Big 10 </td> <td> 13.590 </td> <td> 13.850 </td> </tr>
+ <tr> <td> 118 </td> <td> Kyle </td> <td> Christiansen </td> <td> 13.600 </td> <td> UIC </td> <td> E </td> <td> EIGL </td> <td> 13.310 </td> <td> 13.700 </td> </tr>
+ <tr> <td> 119 </td> <td> Sam </td> <td> Cook </td> <td> 13.583 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 13.460 </td> <td> 13.800 </td> </tr>
+ <tr> <td> 120 </td> <td> Justin </td> <td> Maxwell </td> <td> 13.467 </td> <td> UIC </td> <td> E </td> <td> EIGL </td> <td> 13.400 </td> <td> 13.650 </td> </tr>
+ <tr> <td> 121 </td> <td> Greg </td> <td> Steward </td> <td> 13.450 </td> <td> Washington </td> <td> C </td> <td> Club </td> <td> 13.450 </td> <td> 13.950 </td> </tr>
+ <tr> <td> 122 </td> <td> Kris </td> <td> Done </td> <td> 13.417 </td> <td> Ohio State </td> <td> E </td> <td> Big 10 </td> <td> 13.417 </td> <td> 13.900 </td> </tr>
+ <tr> <td> 123 </td> <td> Killian </td> <td> O'Brien </td> <td> 13.383 </td> <td> Springfield </td> <td> E </td> <td> EIGL </td> <td> 13.280 </td> <td> 13.700 </td> </tr>
+ <tr> <td> 124 </td> <td> Jon </td> <td> Zirna </td> <td> 13.350 </td> <td> Springfield </td> <td> E </td> <td> EIGL </td> <td> 13.190 </td> <td> 13.450 </td> </tr>
+ <tr> <td> 125 </td> <td> Stephen </td> <td> Gragg </td> <td> 13.283 </td> <td> Arizona State </td> <td> C </td> <td> Club </td> <td> 13.283 </td> <td> 13.600 </td> </tr>
+ <tr> <td> 126 </td> <td> Adam </td> <td> Avant </td> <td> 13.217 </td> <td> William & Mary </td> <td> E </td> <td> EIGL </td> <td> 13.217 </td> <td> 13.600 </td> </tr>
+ <tr> <td> 127 </td> <td> Brett </td> <td> Statman </td> <td> 13.167 </td> <td> Temple  </td> <td> E </td> <td> EIGL </td> <td> 13.167 </td> <td> 14.250 </td> </tr>
+ <tr> <td> 128 </td> <td> Jon </td> <td> Rydzefski </td> <td> 13.150 </td> <td> Temple  </td> <td> E </td> <td> EIGL </td> <td> 13.063 </td> <td> 13.350 </td> </tr>
+ <tr> <td> 129 </td> <td> Sam </td> <td> Docherty </td> <td> 13.083 </td> <td> Springfield </td> <td> E </td> <td> EIGL </td> <td> 13.083 </td> <td> 14.150 </td> </tr>
+ <tr> <td> 130 </td> <td> Peter </td> <td> Moser </td> <td> 12.800 </td> <td> Washington </td> <td> C </td> <td> Club </td> <td> 12.800 </td> <td> 13.000 </td> </tr>
+ <tr> <td> 131 </td> <td> Franklin </td> <td> Stutevoss </td> <td> 12.650 </td> <td> Washington </td> <td> C </td> <td> Club </td> <td> 12.650 </td> <td> 13.050 </td> </tr>
+ <tr> <td> 132 </td> <td> Layton </td> <td> Oka </td> <td> 12.650 </td> <td> Washington </td> <td> C </td> <td> Club </td> <td> 12.650 </td> <td> 13.000 </td> </tr>
+ <tr> <td> 133 </td> <td> Alec </td> <td> Chatterton </td> <td> 12.417 </td> <td> Brockport </td> <td> C </td> <td> Club </td> <td> 12.250 </td> <td> 12.700 </td> </tr>
+ <tr> <td> 134 </td> <td> Ron </td> <td> Ayello </td> <td> 12.350 </td> <td> Brockport </td> <td> C </td> <td> Club </td> <td> 12.350 </td> <td> 12.750 </td> </tr>
+ <tr> <td> 135 </td> <td> Cory </td> <td> Tsai </td> <td> 12.017 </td> <td> Washington </td> <td> C </td> <td> Club </td> <td> 12.017 </td> <td> 12.100 </td> </tr>
+ </table>

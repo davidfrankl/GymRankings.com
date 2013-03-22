@@ -1,0 +1,735 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Men's Gymnastics
+National
+ Rankings for: 
+All Around</title>
+</head>
+<body>
+<body background="../../../BACK2.JPG">
+<table border="0" width="100%" id="table1" style="border-width: 0px">
+<tr>
+<td><font size="1" face="Lucida Sans Unicode">[<a ref="http://www.troester.com/gym">GymInfo
+- </a>Men..... | <a href="http://www.troester.com/gym/mranktype.htm">View Rankings</a> | 
+<a href="http://www.troester.com/gym/mviewstat.asp">View Statistics</a> | 
+<a href="http://www.troester.com/gym/MViewRoster.asp">View Rosters</a> | 
+<a href="http://www.troester.com/gym/Mviewmeet.asp">View Schedules</a> ]<br>
+[<a href="http://www.troester.com/gym">GymInfo - </a>Women | 
+<a href="http://www.troester.com/gym/wranktype.htm">View Rankings</a> | 
+<a href="http://www.troester.com/gym/Wviewstat.asp">View Statistics</a> | 
+<a href="http://www.troester.com/gym/WViewRoster.asp">View Rosters</a> | 
+<a href="http://www.troester.com/gym/WViewMeet.asp">View Schedules</a> ]</font></td>
+<td style="border-style: none; border-width: medium" width="270">
+<script type="text/javascript"><!--
+google_ad_client = "pub-2379476258397521";
+google_ad_width = 234;
+google_ad_height = 60;
+google_ad_format = "234x60_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+google_color_border = "336699";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td>
+</tr>
+</table>
+<hr size="1">
+<h2><font color="#FF0000">GymInfo </font>-<font color="#FF0000"> </font>
+Men's Gymnastics
+National
+ Rankings for: Individual 
+All Around</title>
+<h4>
+4 March 2013
+ - by 
+Three Score Average</h4>
+<p></p>
+<table border="1">
+<tr>
+<td align="center"><strong>Rank</strong></td>
+<td align="center"><strong>First Name</strong></td>
+<td align="center"><strong>Last Name</strong></td>
+<td align="center"><strong>AA
+ 3 Ave</strong></td>
+<td align="center"><strong>Team</strong></td>
+<td align="center"><strong>Region</strong></td>
+<td align="center"><strong>Conference</strong></td>
+<td align="center"><strong>Ave</strong></td> <td align="center"><strong>High</strong></td>
+<tr>
+<td align="center">
+1
+</td>
+<td align="left">
+Adrian
+</td>
+<td align="left">
+de los Angeles
+</td>
+<td align="right">
+88.683
+</td>
+<td align="left">
+Michigan  
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+Big 10
+</td>
+<td align="left">
+88.100
+</td>
+<td align="left">
+89.200
+</td>
+</tr>
+<tr>
+<td align="center">
+2
+</td>
+<td align="left">
+Eddie
+</td>
+<td align="left">
+Penev
+</td>
+<td align="right">
+88.117
+</td>
+<td align="left">
+Stanford 
+</td>
+<td align="center">
+W
+</td>
+<td align="center">
+MPSF
+</td>
+<td align="left">
+87.387
+</td>
+<td align="left">
+88.950
+</td>
+</tr>
+<tr>
+<td align="center">
+3
+</td>
+<td align="left">
+FELIX
+</td>
+<td align="left">
+ARONOVICH
+</td>
+<td align="right">
+87.950
+</td>
+<td align="left">
+Penn State
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+Big 10
+</td>
+<td align="left">
+87.950
+</td>
+<td align="left">
+88.800
+</td>
+</tr>
+<tr>
+<td align="center">
+4
+</td>
+<td align="left">
+Alec
+</td>
+<td align="left">
+Robin
+</td>
+<td align="right">
+85.883
+</td>
+<td align="left">
+Oklahoma  
+</td>
+<td align="center">
+W
+</td>
+<td align="center">
+MPSF
+</td>
+<td align="left">
+84.650
+</td>
+<td align="left">
+86.250
+</td>
+</tr>
+<tr>
+<td align="center">
+5
+</td>
+<td align="left">
+Javier
+</td>
+<td align="left">
+Balboa
+</td>
+<td align="right">
+85.817
+</td>
+<td align="left">
+Iowa  
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+Big 10
+</td>
+<td align="left">
+84.400
+</td>
+<td align="left">
+85.950
+</td>
+</tr>
+<tr>
+<td align="center">
+6
+</td>
+<td align="left">
+Yoshi
+</td>
+<td align="left">
+Mori
+</td>
+<td align="right">
+85.217
+</td>
+<td align="left">
+Illinois  
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+Big 10
+</td>
+<td align="left">
+82.800
+</td>
+<td align="left">
+86.800
+</td>
+</tr>
+<tr>
+<td align="center">
+7
+</td>
+<td align="left">
+Joey
+</td>
+<td align="left">
+Peters
+</td>
+<td align="right">
+85.000
+</td>
+<td align="left">
+Illinois  
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+Big 10
+</td>
+<td align="left">
+84.430
+</td>
+<td align="left">
+85.850
+</td>
+</tr>
+<tr>
+<td align="center">
+8
+</td>
+<td align="left">
+Jesse
+</td>
+<td align="left">
+Glenn
+</td>
+<td align="right">
+84.817
+</td>
+<td align="left">
+Army
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+EIGL
+</td>
+<td align="left">
+82.667
+</td>
+<td align="left">
+85.950
+</td>
+</tr>
+<tr>
+<td align="center">
+9
+</td>
+<td align="left">
+Lance
+</td>
+<td align="left">
+Alberhasky
+</td>
+<td align="right">
+83.300
+</td>
+<td align="left">
+Iowa  
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+Big 10
+</td>
+<td align="left">
+82.730
+</td>
+<td align="left">
+83.600
+</td>
+</tr>
+<tr>
+<td align="center">
+10
+</td>
+<td align="left">
+Daniel
+</td>
+<td align="left">
+Potemski
+</td>
+<td align="right">
+83.267
+</td>
+<td align="left">
+William & Mary
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+EIGL
+</td>
+<td align="left">
+83.267
+</td>
+<td align="left">
+84.400
+</td>
+</tr>
+<tr>
+<td align="center">
+11
+</td>
+<td align="left">
+Kevin
+</td>
+<td align="left">
+Wolting
+</td>
+<td align="right">
+83.233
+</td>
+<td align="left">
+California
+</td>
+<td align="center">
+W
+</td>
+<td align="center">
+MPSF
+</td>
+<td align="left">
+81.988
+</td>
+<td align="left">
+85.700
+</td>
+</tr>
+<tr>
+<td align="center">
+12
+</td>
+<td align="left">
+Joseph
+</td>
+<td align="left">
+Hodges
+</td>
+<td align="right">
+83.067
+</td>
+<td align="left">
+UIC
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+EIGL
+</td>
+<td align="left">
+80.629
+</td>
+<td align="left">
+84.100
+</td>
+</tr>
+<tr>
+<td align="center">
+13
+</td>
+<td align="left">
+CJ
+</td>
+<td align="left">
+Schaaf
+</td>
+<td align="right">
+82.850
+</td>
+<td align="left">
+Nebraska  
+</td>
+<td align="center">
+W
+</td>
+<td align="center">
+Big 10
+</td>
+<td align="left">
+81.970
+</td>
+<td align="left">
+83.900
+</td>
+</tr>
+<tr>
+<td align="center">
+14
+</td>
+<td align="left">
+Chris
+</td>
+<td align="left">
+Junghans
+</td>
+<td align="right">
+81.967
+</td>
+<td align="left">
+Navy
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+EIGL
+</td>
+<td align="left">
+81.470
+</td>
+<td align="left">
+82.550
+</td>
+</tr>
+<tr>
+<td align="center">
+15
+</td>
+<td align="left">
+Allan
+</td>
+<td align="left">
+Malone
+</td>
+<td align="right">
+81.550
+</td>
+<td align="left">
+Temple 
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+EIGL
+</td>
+<td align="left">
+81.087
+</td>
+<td align="left">
+83.100
+</td>
+</tr>
+<tr>
+<td align="center">
+16
+</td>
+<td align="left">
+Jason
+</td>
+<td align="left">
+Gaides
+</td>
+<td align="right">
+81.517
+</td>
+<td align="left">
+UIC
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+EIGL
+</td>
+<td align="left">
+79.314
+</td>
+<td align="left">
+82.800
+</td>
+</tr>
+<tr>
+<td align="center">
+17
+</td>
+<td align="left">
+Kyle
+</td>
+<td align="left">
+Zemeir
+</td>
+<td align="right">
+80.900
+</td>
+<td align="left">
+California
+</td>
+<td align="center">
+W
+</td>
+<td align="center">
+MPSF
+</td>
+<td align="left">
+80.900
+</td>
+<td align="left">
+84.050
+</td>
+</tr>
+<tr>
+<td align="center">
+18
+</td>
+<td align="left">
+Lee
+</td>
+<td align="left">
+Wilkerson
+</td>
+<td align="right">
+80.400
+</td>
+<td align="left">
+Arizona State
+</td>
+<td align="center">
+C
+</td>
+<td align="center">
+Club
+</td>
+<td align="left">
+79.675
+</td>
+<td align="left">
+81.900
+</td>
+</tr>
+<tr>
+<td align="center">
+19
+</td>
+<td align="left">
+Keaton
+</td>
+<td align="left">
+Ackerman
+</td>
+<td align="right">
+80.200
+</td>
+<td align="left">
+William & Mary
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+EIGL
+</td>
+<td align="left">
+79.825
+</td>
+<td align="left">
+80.650
+</td>
+</tr>
+<tr>
+<td align="center">
+20
+</td>
+<td align="left">
+Jon
+</td>
+<td align="left">
+Zirna
+</td>
+<td align="right">
+78.950
+</td>
+<td align="left">
+Springfield
+</td>
+<td align="center">
+E
+</td>
+<td align="center">
+EIGL
+</td>
+<td align="left">
+77.870
+</td>
+<td align="left">
+79.650
+</td>
+</tr>
+<tr>
+<td align="center">
+21
+</td>
+<td align="left">
+Stephen
+</td>
+<td align="left">
+Gragg
+</td>
+<td align="right">
+78.050
+</td>
+<td align="left">
+Arizona State
+</td>
+<td align="center">
+C
+</td>
+<td align="center">
+Club
+</td>
+<td align="left">
+78.050
+</td>
+<td align="left">
+80.350
+</td>
+</tr>
+<tr>
+<td align="center">
+22
+</td>
+<td align="left">
+Alec
+</td>
+<td align="left">
+Chatterton
+</td>
+<td align="right">
+68.967
+</td>
+<td align="left">
+Brockport
+</td>
+<td align="center">
+C
+</td>
+<td align="center">
+Club
+</td>
+<td align="left">
+68.967
+</td>
+<td align="left">
+69.900
+</td>
+</tr>
+</table>
+<hr>
+<table border="1" width="100%" id="table1" style="border-width: 0px">
+<tr>
+<td style="border-style: none; border-width: medium"><b><font size="2">
+Copyright Troester Consulting.<br>For problems or questions regarding this web contact
+<a href="../email.htm">Steve Troester</a>.</font></b></td>
+<td style="border-style: none; border-width: medium" width="270">
+<script type="text/javascript"><!--
+google_ad_client = "pub-2379476258397521";
+google_ad_width = 234;
+google_ad_height = 60;
+google_ad_format = "234x60_as";
+google_ad_type = "text_image";
+google_ad_channel ="";
+google_color_border = "336699";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_url = "008000";
+google_color_text = "000000";
+//--></script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></td>
+</tr>
+</table>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-744193-1";
+urchinTracker();
+</script>
+</body>
+</html>
